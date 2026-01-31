@@ -1,0 +1,857 @@
+proxies:
+- {"name": "日本_1", "type": "trojan", "server": "tuntro000.instconn.com", "port": 
+    443, "password": "63b21d86-a49c-4936-a634-0b5af3e30433", "sni": "hkip5.686911.xyz",
+  "udp": true, "skip-cert-verify": false}
+- {"name": "中国_2", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "932781c5-13e0-44ec-a5a8-78340040c562", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "美国_3", "type": "vmess", "server": "47.242.156.126", "port": 8080, "uuid": "d96c1ad6-dba1-43b6-8186-1862a5f8e72f",
+  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
+- {"name": "美国_4", "type": "vless", "server": "v1.dabache.top", "port": 443, "uuid": "1e823993-86ac-3ead-89b5-227e73825fdb",
+  "tls": true, "servername": "dabaif0.webn.cc", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/db1024faebdb62e0", "headers": {"host": "dabaif0.webn.cc"}}}
+- {"name": "美国_5", "type": "vless", "server": "vip1.kaixincloud.top", "port": 
+    443, "uuid": "d89d6641-3b1a-4f51-a194-9c9109fd21b6", "tls": true, "servername": "DiprOX.pages.DEV",
+  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/assets", "headers": {
+      "host": "DiprOX.pages.DEV"}}}
+- {"name": "美国_6", "type": "vmess", "server": "47.242.109.16", "port": 8080, "uuid": "e48abdbd-9582-435e-ad3f-d39f2f2f759b",
+  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
+- {"name": "美国_7", "type": "vmess", "server": "47.243.88.165", "port": 8080, "uuid": "0a0cab2e-5f46-4f16-9c9d-075ccd9d512d",
+  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
+- {"name": "中国_8", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "b9f862b4-2662-45e0-a00a-d53ada4b7cf1", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "美国_9", "type": "vmess", "server": "47.242.75.47", "port": 8080, "uuid": "bcd002b6-a3ab-4438-8ce8-75c0a4f4bf0d",
+  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
+- {"name": "美国_10", "type": "vmess", "server": "47.242.220.243", "port": 8080, "uuid": "76fb2966-04e8-4f06-94f5-66c79c881350",
+  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
+- {"name": "中国_11", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "12c42e97-8a45-4d9e-90ff-6fa0367e4601", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_12", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "c5adf85d-9d69-430c-9395-0ecf78098234", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "美国_13", "type": "vmess", "server": "47.239.58.49", "port": 8080, "uuid": "9c023449-18d5-46d1-b135-9d002ecba60f",
+  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
+- {"name": "中国_14", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41274, "password": "4b18f6f6-3c31-4a66-bbf8-917eb3b8c8a3", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_15", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41274, "password": "7b4c8026-4bef-4263-9332-824dd7b1942e", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_16", "type": "vmess", "server": "8.210.180.77", "port": 8080, "uuid": "9d980c9f-6dc2-43f3-a17e-61744422fdb6",
+  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
+- {"name": "美国_17", "type": "vmess", "server": "47.243.92.155", "port": 8080, "uuid": "6e8b3a5e-d756-4f2c-b197-8fc4a2f94857",
+  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
+- {"name": "中国_18", "type": "vmess", "server": "8.210.211.50", "port": 8080, "uuid": "5f0de29e-345c-44c2-b472-3d1da0b9265e",
+  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
+- {"name": "日本_19", "type": "vmess", "server": "47.74.16.238", "port": 8080, "uuid": "63251f65-046d-48e0-af76-f2400c4862e3",
+  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
+- {"name": "日本_20", "type": "vmess", "server": "47.91.22.94", "port": 8080, "uuid": "bc905b87-268d-46f7-b05d-92b48989a343",
+  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
+- {"name": "中国_21", "type": "vmess", "server": "8.210.253.208", "port": 8080, "uuid": "f9d5cea6-5fde-456d-b5fc-9214c60f118e",
+  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
+- {"name": "波兰_22", "type": "trojan", "server": "95.40.115.216", "port": 1691, "password": "BxceQaOe",
+  "udp": true, "skip-cert-verify": true}
+- {"name": "中国_23", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41274, "password": "259ce184-d61a-4c55-b148-02613051cc07", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_24", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "866bf321-6b0e-4b02-a7f6-5bd8fd0c3b0d", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_25", "type": "vmess", "server": "8.210.178.4", "port": 8080, "uuid": "718cfac2-0044-4e43-ad9e-9f67f07b545a",
+  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
+- {"name": "新加坡_26", "type": "vmess", "server": "8.219.237.180", "port": 8080, "uuid": "16d054e0-68cc-40f4-a11a-4c01cf4a1842",
+  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
+- {"name": "中国_27", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "51f95ff2-b65f-4656-8fc1-7032698f3962", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_28", "type": "vmess", "server": "faq1.lieerr222.cn", "port": 
+    43528, "uuid": "9ef9f446-7feb-493f-8e56-f56bd152d0ae", "tls": false, "network": "tcp",
+  "alterId": 0, "cipher": "auto"}
+- {"name": "新加坡_29", "type": "vmess", "server": "8.211.129.90", "port": 8080, "uuid": "149a702b-fe13-4fc9-b1d8-1459e2221b20",
+  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
+- {"name": "新加坡_30", "type": "vmess", "server": "8.222.242.45", "port": 8080, "uuid": "542f6e13-9542-470c-974a-d31c0a05a37d",
+  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
+- {"name": "中国_31", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "c1c7c28c-ce4c-468c-aade-d0ab517eedcd", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "美国_32", "type": "vmess", "server": "47.237.139.206", "port": 8080, "uuid": "7e9e19b4-bcf0-4cd6-9f59-a6513925a00c",
+  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
+- {"name": "新加坡_33", "type": "vmess", "server": "8.219.214.72", "port": 8080, "uuid": "055a44ab-956e-4356-ac61-8d333a4d1701",
+  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
+- {"name": "中国台湾_34", "type": "vless", "server": "2026.01.2.tw.aimirror.top", "port": 
+    443, "uuid": "eeaa07ca-2693-42f8-e544-a16521d8e922", "tls": false, "servername": "www.icloud.com",
+  "network": "tcp", "skip-cert-verify": false}
+- {"name": "中国_35", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "d7c53b00-f6ac-4db7-9394-9c95698897bf", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_36", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "2f49cedb-5560-4e78-a02a-1436c530a0cd", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "日本_37", "type": "trojan", "server": "54.178.100.75", "port": 3760, "password": "BxceQaOe",
+  "udp": true, "skip-cert-verify": true}
+- {"name": "中国_38", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "9ef74c86-2498-426e-bbf0-8faf31d9d349", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_39", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "98af35ae-e91a-42d8-a650-83b65957dbad", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_40", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "53b0f3d4-c65a-46fb-b104-d6dd5036623d", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_41", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "8ab45243-ca1f-4a69-9591-bc83eb8b6745", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_42", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "e324a1f3-e49f-4652-929d-64bcf483ff6f", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_43", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "9befa1a5-b2cf-4ed1-8f3c-6aad2487e507", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_44", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "e22b1d4a-e8f0-4091-ad73-d9ef31caeaf1", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_45", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "e98c6fcc-43bc-4d75-8345-e911b7257dca", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_46", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "2a235808-740d-410f-bf1c-f1e7b3157c07", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_47", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "c5c2f78f-2447-475a-87ad-d9db49b80a4a", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_48", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "2d6e3640-7cd3-4896-b52d-077a2ed09d55", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_49", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "4984721f-3755-47bc-a0fd-ff825b834daa", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_50", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "6602c07b-4894-49ac-a710-d941fb57cb8b", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_51", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "339e30c7-44f6-482b-8a5c-037d56b5c271", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_52", "type": "vmess", "server": "tunnel1.qqa678.com", "port": 
+    47083, "uuid": "9f8c122d-5b86-4c19-af87-64f458a88223", "tls": false, "network": "tcp",
+  "alterId": 0, "cipher": "auto"}
+- {"name": "中国_53", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "60f63a77-9f43-455c-87c1-208270981983", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_54", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "96369be4-0ae7-4c52-9f6b-eb5dff12f5cc", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_55", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "3f22f7bb-da87-4854-9199-25c738607b77", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_56", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "4a327f15-c2e1-49de-99a8-c4e4acb72e7e", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_57", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "923b8ccd-b946-4678-a462-d541497dffd2", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_58", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "90fac4e4-1e4f-4e3e-82f6-5d72be106bb9", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_59", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "22c5a603-78c7-4403-a2aa-10ae46c6fb28", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_60", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "b31afd04-9134-4e95-9195-f1248c77bcf7", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_61", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "db6d786f-01a6-4b91-af29-d902270a2731", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_62", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "45948958-74c1-4812-8907-a089b450814a", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_63", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "3ac8b148-29cb-4330-a2e5-facc56c20eef", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_65", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "b30e5734-cb33-47b2-a574-b898f62900ad", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_66", "type": "vmess", "server": "faq1.lieerr222.cn", "port": 
+    43525, "uuid": "7740455a-87d7-4749-b142-f6f5cc4ed4ea", "tls": false, "network": "tcp",
+  "alterId": 0, "cipher": "auto"}
+- {"name": "韩国_67", "type": "vless", "server": "222.102.51.111", "port": 51698, "uuid": "5d42cfef-0556-4f0c-bfb7-161aef500ab5",
+  "tls": false, "servername": "lenovoglobal.com", "network": "grpc", "skip-cert-verify": 
+    false}
+- {"name": "日本_68", "type": "trojan", "server": "54.178.100.75", "port": 1867, "password": "BxceQaOe",
+  "udp": true, "skip-cert-verify": true}
+- {"name": "中国_69", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "91d2c6e2-b8c2-473a-9739-e267bfadb366", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_70", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "093cec7e-5290-4467-a271-fea03c81e172", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_71", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "8f03a11f-df44-4719-88ad-c72263c8de6f", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_72", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "9e1d1118-d5d0-4bdb-8791-4bae1558086d", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_73", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "d6565917-c7c1-4b6c-b404-4221308a2675", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_74", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "5fdc4f35-8626-42e9-81a7-d86d7343c282", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_75", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "4e05fcc0-5b65-4443-a83e-231f6046b43d", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_76", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "18a1dc1a-839e-430a-ac45-b08b3a31a07b", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_77", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "a8952be0-7a3b-4095-82fa-c841d57bf7d6", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_78", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "b22d6ffa-a66b-4728-8393-59a9cfc73542", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_79", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "c7b6abf0-f74c-40b1-a09c-689196a87d60", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_80", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "ca544f99-158e-4bd2-8bf1-743dd6e8b1d0", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_81", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "ef3cf9b4-2c3d-4826-af35-ca0acb4afa91", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_82", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "2e9a497d-4f4f-45b0-a234-7b666dc8786b", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_83", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "8c37dbb8-3b08-4205-b28f-7d993fe66cf3", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_84", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "83fb8d38-f521-4625-8816-08a241c26046", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_85", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "719636c7-c646-4966-ab63-fe842997f120", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_86", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "bc359d65-b175-4853-b979-547493579efe", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_87", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "28490e1b-c5a1-4f61-989f-850f59855819", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_88", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "20e7c469-37bd-4b5f-bb6a-6add4a7eb7e2", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_89", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "c6dbeda3-1a21-4bf7-a7b5-52c87fb760d1", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_90", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "8f10a5e5-32c1-4957-80fb-8863464e2b55", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_91", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "5bb7f4a6-8728-49bb-ba1d-80b1bf794e9c", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_92", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "9749ecc9-01a4-4adf-94e6-f787f43570f2", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_93", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "9564dec9-32b7-4109-b230-e41c4dc88ff1", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_94", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "ad053718-0b0a-4dc6-840b-283d1617880c", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_95", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "6f00320e-4bc8-4800-ad1b-86fff8063c5c", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_96", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "e924e20a-4fa9-477f-953b-2ca792f1d8bf", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_97", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "47bbe576-af20-4922-a9ca-4c863c8a415b", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_98", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "802d664a-1374-4b2f-a33d-587c88ea4798", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_99", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "16b8bf7e-8abc-4778-944a-7ab9823e76e3", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_100", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "f8dd1b16-3a3b-44f9-98bb-ac477c52cf08", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_101", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "5cbe60ee-f7e1-4e37-9bce-03253a94c248", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_102", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "027d1e7d-0282-4b88-81a1-6da712ff0ba6", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_103", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "c4433c01-8608-4c75-99b6-8d507697461c", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_104", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "1ee30eef-4de2-415d-904b-5939fc8d251f", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_105", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "41c7f97a-a058-45a9-bb2f-b97078e78cb7", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_106", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "42a310fc-f3cd-4cdc-a2ed-36ca734f63ce", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_107", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "d22a4637-5550-48a6-ba33-ea4fa0c54df2", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "美国_108", "type": "vless", "server": "47.80.11.87", "port": 443, "uuid": "3e7f67de-648e-4871-b51a-a225214d41ee",
+  "tls": false, "servername": "api.company-target.com", "network": "tcp", "skip-cert-verify": 
+    false}
+- {"name": "中国_109", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "dcbbb443-3840-44a5-a38e-d77f91ca90f3", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_110", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "a44a7096-6b69-415c-8430-ed64b43ae1c9", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_111", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "2a768604-7432-41c5-8792-7f7da78efa4c", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_112", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "ccc133b7-894a-42f5-bb25-49ec95f7771b", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_113", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "dc34d040-584f-4f3d-9213-ab4c6f0c6420", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_114", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "9cb8f002-dedd-4d19-93ab-70cc145bfbbb", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_115", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "a4c1038e-bd7a-4d87-9575-bf173cf0c301", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_116", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "e88895f2-e5df-4800-9e2d-4448f3e1f926", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_117", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "6da76a67-b327-4c85-9b74-19ed94d63d61", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "美国_118", "type": "vless", "server": "47.80.10.52", "port": 443, "uuid": "3e7f67de-648e-4871-b51a-a225214d41ee",
+  "tls": false, "servername": "api.company-target.com", "network": "tcp", "skip-cert-verify": 
+    false}
+- {"name": "中国_119", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "0dc9fa56-784b-43c6-a37d-9190508705ba", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_120", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "3adadbe3-b95c-410a-bdef-6852befcde9b", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_121", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "8c681ceb-65cd-407e-8707-05c6fd3f15c6", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_122", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "5d109e06-be43-4c75-9022-5f9fa39db841", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_123", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "7a036694-f558-4a36-9db6-fc847b0e0aa5", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_124", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "249a9c47-3d68-4d63-a8c9-93ba0b4309ce", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "美国_125", "type": "vless", "server": "47.80.11.87", "port": 443, "uuid": "3e7f67de-648e-4871-b51a-a225214d41ee",
+  "tls": false, "servername": "api.company-target.com", "network": "tcp", "skip-cert-verify": 
+    false}
+- {"name": "伊朗_126", "type": "trojan", "server": "37.202.200.19", "port": 25010, "password": "09e71e3b-1f9f-44ab-9a10-02e0e10e2f05",
+  "udp": true, "skip-cert-verify": true}
+- {"name": "中国_127", "type": "trojan", "server": "faq1.lieerr222.cn", "port": 
+    43533, "password": "5c98781d-1f21-4a8d-901c-c5e958b8060f", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "美国_128", "type": "trojan", "server": "205.185.115.223", "port": 
+    19258, "password": "iWnFtzMiac", "sni": "cloudflare.com", "udp": true, "skip-cert-verify": 
+    false}
+- {"name": "中国_129", "type": "trojan", "server": "faq1.lieerr222.cn", "port": 
+    43534, "password": "58ea18cc-9009-4835-ad5e-8e01c603d797", "sni": "douyin.com",
+  "udp": true, "skip-cert-verify": true}
+- {"name": "中国_130", "type": "trojan", "server": "faq1.lieerr222.cn", "port": 
+    43533, "password": "685343f2-49e1-41f8-a7fc-5d0993afb6c6", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "美国_131", "type": "vless", "server": "162.19.10.94", "port": 443, "uuid": "e8b1500b-e9e8-5492-8312-f4eadf7d0767",
+  "tls": true, "servername": "nasnet-162191094-direct.sharghdaily.co", "network": "tcp",
+  "skip-cert-verify": false}
+- {"name": "中国_132", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41275, "password": "a513132c-a04d-429d-b5c3-08bd6a20a37f", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "英国_133", "type": "vmess", "server": "82.198.246.97", "port": 180, "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
+- {"name": "美国_134", "type": "vless", "server": "decdn10.suio.me", "port": 443, "uuid": "ba9ddd0d-5ffd-4d40-b76d-df32ecb092a1",
+  "tls": true, "servername": "decdn10.suio.me", "network": "tcp", "skip-cert-verify": 
+    false}
+- {"name": "丹麦_135", "type": "vless", "server": "159.195.26.28", "port": 443, "uuid": "84f66368-8a37-468e-ae95-5622255fd4db",
+  "tls": false, "servername": "live.com", "network": "tcp", "skip-cert-verify": 
+    false}
+- {"name": "中国_136", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "0f20df5e-bb05-4d52-93a1-d70a7653465e", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "美国_137", "type": "vless", "server": "decdn11.suio.me", "port": 443, "uuid": "ba9ddd0d-5ffd-4d40-b76d-df32ecb092a1",
+  "tls": true, "servername": "decdn11.suio.me", "network": "tcp", "skip-cert-verify": 
+    false}
+- {"name": "英国_138", "type": "vmess", "server": "82.198.246.97", "port": 180, "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
+- {"name": "中国_139", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "cc006e90-2ed4-4659-8ff1-7e32f06eb90f", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "英国_140", "type": "vmess", "server": "82.198.246.97", "port": 180, "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
+- {"name": "中国香港_141", "type": "trojan", "server": "58.152.53.45", "port": 443, "password": "BxceQaOe",
+  "udp": true, "skip-cert-verify": true}
+- {"name": "英国_142", "type": "vmess", "server": "82.198.246.97", "port": 180, "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
+- {"name": "中国_143", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41275, "password": "f1f8c5c7-e043-4b5f-9526-bf9502c69ecd", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "美国_144", "type": "vmess", "server": "47.237.146.87", "port": 8080, "uuid": "62367cca-518e-4e89-ae21-8201c6e8fbfb",
+  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
+- {"name": "美国_145", "type": "vmess", "server": "154.83.2.156", "port": 2086, "uuid": "92373ed1-78a8-4cbe-aa06-54af1edd0471",
+  "tls": false, "network": "ws", "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/",
+    "headers": {"host": "v205.19740822.xyz"}}}
+- {"name": "中国_146", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41274, "password": "af5e833f-859e-4ff0-8713-56dae5885ba8", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国香港_147", "type": "trojan", "server": "58.152.53.45", "port": 443, "password": "BxceQaOe",
+  "udp": true, "skip-cert-verify": true}
+- {"name": "中国_148", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41275, "password": "c283ba27-e30c-4346-b149-356d22109d1e", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "英国_149", "type": "vmess", "server": "82.198.246.97", "port": 180, "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
+- {"name": "中国_150", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41275, "password": "2dfee75a-31f7-4dea-af87-50de5da5f13a", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "英国_151", "type": "vmess", "server": "82.198.246.97", "port": 180, "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
+- {"name": "中国_152", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41275, "password": "b989bd76-e718-4ae2-9569-b29472a2ef44", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "美国_153", "type": "vmess", "server": "47.236.37.237", "port": 8080, "uuid": "542f6e13-9542-470c-974a-d31c0a05a37d",
+  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
+- {"name": "中国_154", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41274, "password": "9ae78ee0-41f7-423a-a1ca-c784c9926732", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_155", "type": "vmess", "server": "faq1.lieerr222.cn", "port": 
+    43528, "uuid": "8423ff01-01e4-4b6f-82a5-6f077d4e1755", "tls": false, "network": "tcp",
+  "alterId": 0, "cipher": "auto"}
+- {"name": "中国_156", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41275, "password": "378b3db2-4eb2-4f66-b567-e87769c0d334", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "塞尔维亚_157", "type": "vless", "server": "1.kkcweb.ir", "port": 2083, "uuid": "c805b05e-339d-40e0-8787-432d97a27345",
+  "tls": true, "servername": "hajames.amirconfigpaanelllll.com", "network": "ws",
+  "skip-cert-verify": false, "ws-opts": {"path": "/", "headers": {"host": "1.kkcweb.ir"}}}
+- {"name": "美国_158", "type": "vless", "server": "cf.xuiprospeed.ir", "port": 
+    2096, "uuid": "c805b05e-339d-40e0-8787-432d97a27345", "tls": true, "servername": "meraj-nol.hhgksdghfggg.sbs",
+  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/", "headers": {
+      "host": "meraj-nol.hhgksdghfggg.sbs"}}}
+- {"name": "美国_159", "type": "vless", "server": "cf.xuiprospeed.ir", "port": 
+    2096, "uuid": "c805b05e-339d-40e0-8787-432d97a27345", "tls": true, "servername": "meraj-nol.hhgksdghfggg.sbs",
+  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/", "headers": {
+      "host": "meraj-nol.hhgksdghfggg.sbs"}}}
+- {"name": "德国_160", "type": "vless", "server": "185.250.41.77", "port": 8880, "uuid": "38cc3dff-5114-429f-9a45-fed484086c47",
+  "tls": false, "network": "ws", "ws-opts": {"path": "/", "headers": {"host": "divar.ir"}}}
+- {"name": "中国_161", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "54b4b1f7-d9bb-4b72-a51a-b3e5a848d23b", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_162", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41275, "password": "a086cd3c-b1cb-400d-aa91-692e16a97ace", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国香港_163", "type": "vless", "server": "2026.01.1.hk.aimirror.top", "port": 
+    443, "uuid": "eeaa07ca-2693-42f8-e544-a16521d8e922", "tls": false, "servername": "www.icloud.com",
+  "network": "tcp", "skip-cert-verify": false}
+- {"name": "美国_164", "type": "vless", "server": "162.19.10.94", "port": 443, "uuid": "nasnet",
+  "tls": true, "servername": "nasnet-162191094-direct.sharghdaily.co", "network": "tcp",
+  "skip-cert-verify": false}
+- {"name": "中国_165", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41275, "password": "c9843bfc-9826-4bcb-8f3c-2d3d4f9748ba", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_166", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41275, "password": "c69f4623-b482-47b6-85e5-d366a0d3ec47", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "美国_167", "type": "vmess", "server": "47.236.4.20", "port": 8080, "uuid": "34ee3bc0-5548-4b9a-a4c7-1c63c009a4d2",
+  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
+- {"name": "中国_168", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "bae0db34-f430-4a1b-9b3d-634992195800", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_169", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "05effb18-d3e5-42a8-96cb-d4ca70c43c7a", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "俄罗斯_170", "type": "vless", "server": "nlcdn6.suio.me", "port": 443, "uuid": "ba9ddd0d-5ffd-4d40-b76d-df32ecb092a1",
+  "tls": true, "servername": "nlcdn6.suio.me", "network": "tcp", "skip-cert-verify": 
+    false}
+- {"name": "中国_171", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "c5f4e12f-840c-45a8-ba12-7146f955ccc4", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_172", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "aab0ea48-2ffb-4e00-b052-be5ca327d437", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_173", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "25460210-452e-4257-9904-deaf55162e41", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国香港_174", "type": "trojan", "server": "219.76.135.98", "port": 443, "password": "BxceQaOe",
+  "udp": true, "skip-cert-verify": true}
+- {"name": "中国_175", "type": "trojan", "server": "faq1.lieerr222.cn", "port": 
+    43534, "password": "81c62fb0-2580-46d9-9c9d-690e5d6a1354", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "美国_176", "type": "vmess", "server": "freeiran.lookanet.app", "port": 
+    443, "uuid": "3859ecd5-9554-433d-adcc-02962e8c02ec", "tls": true, "servername": "shoppers.alfarexo.com",
+  "network": "xhttp", "skip-cert-verify": false, "alterId": 0, "cipher": "auto"}
+- {"name": "中国香港_177", "type": "vless", "server": "2026.01.1.de.aimirror.top", "port": 
+    443, "uuid": "eeaa07ca-2693-42f8-e544-a16521d8e922", "tls": false, "servername": "www.icloud.com",
+  "network": "tcp", "skip-cert-verify": false}
+- {"name": "美国_178", "type": "vmess", "server": "47.236.196.196", "port": 8080, "uuid": "d8f79586-3ab5-4d44-9a8e-3dfcce896348",
+  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
+- {"name": "美国_179", "type": "vmess", "server": "47.237.166.132", "port": 8080, "uuid": "1c44f3bb-5fab-4269-9d25-b3e123cadc73",
+  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
+- {"name": "美国_180", "type": "vless", "server": "47.89.164.60", "port": 443, "uuid": "5c183802-747d-4d2f-a6f1-aff2d5d78401",
+  "tls": false, "servername": "cdn.userway.org", "network": "tcp", "skip-cert-verify": 
+    false}
+- {"name": "德国_181", "type": "vless", "server": "37.120.172.61", "port": 22955, "uuid": "63f92f3c-447c-4283-80b9-0af8e164cdad",
+  "tls": false, "servername": "one-piece.com", "network": "grpc", "skip-cert-verify": 
+    false}
+- {"name": "德国_182", "type": "vless", "server": "37.120.164.120", "port": 22955, "uuid": "63f92f3c-447c-4283-80b9-0af8e164cdad",
+  "tls": false, "servername": "one-piece.com", "network": "grpc", "skip-cert-verify": 
+    false}
+- {"name": "伊拉克_183", "type": "vless", "server": "nlcdn5.suio.me", "port": 443, "uuid": "ba9ddd0d-5ffd-4d40-b76d-df32ecb092a1",
+  "tls": true, "servername": "nlcdn5.suio.me", "network": "tcp", "skip-cert-verify": 
+    false}
+- {"name": "中国_184", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41274, "password": "b4a995e7-d8f2-418d-832a-64d261b6bab6", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_185", "type": "trojan", "server": "faq1.lieerr222.cn", "port": 
+    43534, "password": "58ea18cc-9009-4835-ad5e-8e01c603d797", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "美国_186", "type": "vless", "server": "162.19.10.94", "port": 443, "uuid": "nasnet",
+  "tls": true, "servername": "nasnet-162191094-direct.sharghdaily.co", "network": "tcp",
+  "skip-cert-verify": false}
+- {"name": "中国_187", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41274, "password": "529d8d2b-91fa-4703-86ed-1db76eb0bf09", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_188", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "7efdd67e-1e74-4c48-8772-cfe5f669d643", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "瑞典_189", "type": "vless", "server": "157.180.79.18", "port": 2053, "uuid": "24497ec6-9244-4781-869d-3b48dbb13361",
+  "tls": false, "servername": "www.cloudflare.com", "network": "tcp", "skip-cert-verify": 
+    false}
+- {"name": "中国_190", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "9ca46342-e69b-4790-9876-8008d7063476", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_191", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41274, "password": "7b1ad21a-8900-4391-8d9d-3c483924faaa", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_192", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "d5aa422f-a1d7-4bb5-bc1a-2b0845bff707", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国香港_193", "type": "vless", "server": "2026.01.1.de.aimirror.top", "port": 
+    443, "uuid": "eeaa07ca-2693-42f8-e544-a16521d8e922", "tls": false, "servername": "www.icloud.com",
+  "network": "tcp", "skip-cert-verify": false}
+- {"name": "中国_194", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41274, "password": "a9c7a888-1c2e-4d21-81c3-f86a2f10df45", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国香港_195", "type": "trojan", "server": "219.76.135.98", "port": 443, "password": "BxceQaOe",
+  "udp": true, "skip-cert-verify": true}
+- {"name": "美国_196", "type": "trojan", "server": "vip3.kaixincloud.top", "port": 
+    8443, "password": "T9BpZIVMNv", "sni": "sweden.vmaxpanel.com", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_197", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41274, "password": "4a3194ce-c461-4b21-927c-503c66a3741a", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_198", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41274, "password": "3b6ea519-cead-468a-b8b7-8a2f74e0df36", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "法国_199", "type": "vless", "server": "195.154.190.119", "port": 443, "uuid": "45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3",
+  "tls": false, "servername": "hls-svod.itunes.apple.com", "network": "tcp", "skip-cert-verify": 
+    false}
+- {"name": "中国_200", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41274, "password": "8517abd6-5b0f-4620-888d-04a74b6886b7", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "法国_201", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/", "headers": {"host": "2001:bc8:32d7:302::10"}}}
+- {"name": "中国_202", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41274, "password": "de0dcd7a-4b55-49b5-929b-3decf1cd0731", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "法国_203", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN",
+    "headers": {"host": "2001:bc8:32d7:302::10"}}}
+- {"name": "中国_204", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41274, "password": "41524ee9-d77e-4508-b603-de3c560234e0", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "加拿大_205", "type": "trojan", "server": "tuntro006.instconn.com", "port": 
+    443, "password": "63b21d86-a49c-4936-a634-0b5af3e30433", "sni": "torontorm1.686911.xyz",
+  "udp": true, "skip-cert-verify": false}
+- {"name": "法国_206", "type": "vmess", "server": "2001:bc8:32d7:302::14", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560",
+    "headers": {"host": "TABRIZ.NET"}}}
+- {"name": "中国_207", "type": "trojan", "server": "faq1.lieerr222.cn", "port": 
+    43533, "password": "5c98781d-1f21-4a8d-901c-c5e958b8060f", "sni": "douyin.com",
+  "udp": true, "skip-cert-verify": true}
+- {"name": "中国_208", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41274, "password": "67094309-a65f-4a43-8c4f-c10ef35947f7", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "法国_209", "type": "vmess", "server": "2001:bc8:32d7:302::17", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1",
+    "headers": {"host": "AZERB.NET"}}}
+- {"name": "法国_210", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560",
+    "headers": {"host": "AZERB.NET"}}}
+- {"name": "法国_211", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?ed=2048", "headers": {"host": "2001:bc8:32d7:302::10"}}}
+- {"name": "美国_212", "type": "trojan", "server": "45.89.111.142", "port": 443, "password": "7LBbob9IutFObLxLf9Svc1HaV",
+  "sni": "hl-freedom-1.undef.network", "udp": true, "skip-cert-verify": true}
+- {"name": "法国_213", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1",
+    "headers": {"host": "TURK1.NET.NET"}}}
+- {"name": "法国_214", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?ed=2048", "headers": {"host": "2001:bc8:32d7:302::10"}}}
+- {"name": "法国_215", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/", "headers": {"host": "2001:bc8:32d7:302::10"}}}
+- {"name": "法国_216", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1",
+    "headers": {"host": "2001:bc8:32d7:302::10"}}}
+- {"name": "法国_217", "type": "vmess", "server": "2001:bc8:32d7:302::15", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1",
+    "headers": {"host": "TURK.NET"}}}
+- {"name": "中国_218", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41274, "password": "ca115319-56ec-4069-b32b-e4d8a337c2a5", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "英国_219", "type": "ss", "server": "82.38.31.101", "port": 8080, "cipher": "chacha20-ietf-poly1305",
+  "password": "oZIoA69Q8yhcQV8ka3Pa3A", "udp": true}
+- {"name": "法国_220", "type": "vmess", "server": "2001:bc8:32d7:302::11", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560",
+    "headers": {"host": "TABRIZ.NET"}}}
+- {"name": "法国_221", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10",
+    "headers": {"host": "2001:bc8:32d7:302::10"}}}
+- {"name": "中国_222", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41274, "password": "18db172d-be46-40cb-b402-db212b73977f", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "法国_223", "type": "vless", "server": "2001:bc8:32d7:302::13", "port": 
+    34324, "uuid": "26c462ba-a90c-4814-9d7c-a629bc0bdb5c", "tls": false, "servername": "dash.cloudflare.com",
+  "network": "tcp", "skip-cert-verify": false}
+- {"name": "法国_224", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN",
+    "headers": {"host": "2001:bc8:32d7:302::10"}}}
+- {"name": "中国_225", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41274, "password": "1dedc639-7989-47ac-a8a7-95048219f67d", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "法国_226", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN",
+    "headers": {"host": "2001:bc8:32d7:302::10"}}}
+- {"name": "法国_227", "type": "vmess", "server": "2001:bc8:32d7:302::11", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560",
+    "headers": {"host": "Azerb.NET"}}}
+- {"name": "中国_228", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41274, "password": "3ee2a8bc-e162-4d22-a6ca-bd0f11f5860e", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "法国_229", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "?ed=2048", "headers": {"host": "2001:bc8:32d7:302::10"}}}
+- {"name": "中国_230", "type": "vmess", "server": "faq1.lieerr222.cn", "port": 
+    43528, "uuid": "1d6816a7-02ba-4f57-a47d-50500f5b624b", "tls": false, "network": "tcp",
+  "alterId": 0, "cipher": "auto"}
+- {"name": "中国_231", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41274, "password": "9afdadb3-a4c5-46a2-967a-d42b65b9408a", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_232", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41274, "password": "767002de-ccc6-4bc5-858c-df74fa7e99e5", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_233", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "83b702cc-7e70-45f7-8a25-ae6d1c99fe96", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "法国_234", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/", "headers": {"host": "AZERB.NET"}}}
+- {"name": "法国_235", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1",
+    "headers": {"host": "AZERB.NET"}}}
+- {"name": "新加坡_236", "type": "vless", "server": "weirdoweb.xyz", "port": 443, "uuid": "7f86227e-c630-4a24-9160-b80d16bb37c8",
+  "tls": true, "servername": "www.weirdoweb.xyz", "network": "tcp", "skip-cert-verify": 
+    false}
+- {"name": "法国_237", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10",
+    "headers": {"host": "2001:bc8:32d7:302::10"}}}
+- {"name": "中国_238", "type": "vmess", "server": "faq1.lieerr222.cn", "port": 
+    43528, "uuid": "e404a24f-cb43-4cec-abf1-7b7783ce8316", "tls": false, "network": "tcp",
+  "alterId": 0, "cipher": "auto"}
+- {"name": "法国_239", "type": "vmess", "server": "2001:bc8:32d7:302::16", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1",
+    "headers": {"host": "AZERB.NET"}}}
+- {"name": "法国_240", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/", "headers": {"host": "2001:bc8:32d7:302::10"}}}
+- {"name": "中国_241", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41274, "password": "dc8480dc-f90d-46ed-90e5-0d3e7feb6bf8", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "美国_242", "type": "vless", "server": "cf.xuiprospeed.ir", "port": 
+    2096, "uuid": "c805b05e-339d-40e0-8787-432d97a27345", "tls": true, "servername": "meraj-dol.hhgksdghfggg.sbs",
+  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/", "headers": {
+      "host": "meraj-dol.hhgksdghfggg.sbs"}}}
+- {"name": "乌克兰_243", "type": "vless", "server": "fox3.wizard2shop.org", "port": 
+    2083, "uuid": "4e5c6735-d657-4f9c-931d-52504f31aae8", "tls": true, "servername": "finii.wizard2shop.com",
+  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/?ed=2560", "headers": {
+      "host": "finii.wizard2shop.com"}}}
+- {"name": "中国_244", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41274, "password": "b455a08e-1a35-49c5-9e0c-288828e9f7d1", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_245", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "c8b397d2-1b34-43a9-b9bc-0676a67ff226", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_246", "type": "vmess", "server": "faq1.lieerr222.cn", "port": 
+    43528, "uuid": "38cba758-a831-4869-a4b5-e1410a798c16", "tls": false, "network": "tcp",
+  "alterId": 0, "cipher": "auto"}
+- {"name": "日本_247", "type": "vmess", "server": "47.74.62.63", "port": 8080, "uuid": "28cfc3c5-5048-429e-a4fe-898269b02fc2",
+  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
+- {"name": "中国_248", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41274, "password": "661f7f97-27a7-44a2-abd8-2369e44f94a8", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国香港_249", "type": "vless", "server": "2026.01.2.hk.aimirror.top", "port": 
+    443, "uuid": "eeaa07ca-2693-42f8-e544-a16521d8e922", "tls": false, "servername": "www.icloud.com",
+  "network": "tcp", "skip-cert-verify": false}
+- {"name": "美国_250", "type": "vless", "server": "cf.xuiprospeed.ir", "port": 
+    2096, "uuid": "cb9dc2fd-023c-4559-b383-22e1bfcb7a52", "tls": true, "servername": "majid-tor.hhgksdghfggg.sbs",
+  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/", "headers": {
+      "host": "majid-tor.hhgksdghfggg.sbs"}}}
+- {"name": "中国香港_251", "type": "trojan", "server": "58.152.53.45", "port": 443, "password": "BxceQaOe",
+  "udp": true, "skip-cert-verify": true}
+- {"name": "中国_252", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41274, "password": "177acbb6-5425-4f1c-a171-40a4e69ffc88", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "美国_253", "type": "vmess", "server": "47.245.42.110", "port": 8080, "uuid": "738a2554-3c3d-491f-95cf-66be3a5a2ebf",
+  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
+- {"name": "希腊_254", "type": "vless", "server": "185.234.57.207", "port": 443, "uuid": "dd92c4f8-be88-4c61-84eb-d261f798071e",
+  "tls": false, "servername": "teamdocs.su", "network": "tcp", "skip-cert-verify": 
+    false}
+- {"name": "中国_255", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41275, "password": "c7a50b30-0209-4ba1-9d07-27468a3a7307", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_256", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "779d1948-9adc-4a79-ba5f-86fc95b39710", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_257", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41274, "password": "305c77ab-d9bd-436c-b7df-87a53bf4d2dd", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_258", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41275, "password": "df3eab1d-664b-4109-a056-e00affac6b80", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "美国_259", "type": "vmess", "server": "4cc8-a2d8-a34a20d2e7e5.457.pp.ua",
+  "port": 443, "uuid": "0cd3c9d1-68e5-4917-8a0a-c62f1a52de56", "tls": true, "servername": "4cc8-a2d8-a34a20d2e7e5.457.pp.ua",
+  "network": "xhttp", "skip-cert-verify": false, "alterId": 0, "cipher": "auto"}
+- {"name": "中国_260", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41274, "password": "7c7ad3eb-699e-4f21-be36-6b3a8c809f38", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "美国_261", "type": "trojan", "server": "45.89.111.142", "port": 443, "password": "7LBbob9IutFObLxLf9Svc1HaV",
+  "sni": "hl-freedom-1.undef.network", "udp": true, "skip-cert-verify": true}
+- {"name": "中国_262", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "df7971b7-344b-4b86-8b6a-267620c8dc8d", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "乌克兰_263", "type": "vless", "server": "cl6-ndl.privetnet.ru", "port": 
+    7443, "uuid": "fdeecee7-dbed-47f6-bea2-cb0073b5e435", "tls": false, "network": "ws",
+  "ws-opts": {"path": "/vless", "headers": {"host": "cl6-ndl.privetnet.ru"}}}
+- {"name": "中国_264", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41275, "password": "b182a397-33bc-4474-a06c-0d0ad6a1abc5", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_265", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41275, "password": "572685d1-c0d9-47e6-9764-05b7ada3745f", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_266", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41275, "password": "ccbbdfd5-828d-427d-8955-9310b4099af6", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_267", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41275, "password": "cc3af11f-3314-4e32-87e9-6be0824bbd10", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "美国_268", "type": "vless", "server": "nodejs.org", "port": 80, "uuid": "6abc2840-25fd-4dd7-b1aa-0892fe98f2d9",
+  "tls": false, "network": "ws", "ws-opts": {"path": "/?ed", "headers": {"host": "MySterIOUS-chECk94Bl5oXQ6C.eCoTOUriSs.cO.uK."}}}
+- {"name": "中国_269", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41275, "password": "41a4f30b-10d2-43e1-8e7f-0605eb63b064", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_270", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41275, "password": "ed36cbde-3a2a-4ae4-b15d-580117cc24fe", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_271", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41275, "password": "fcbb4089-0c3c-4233-81fd-098e24da661c", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_272", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41275, "password": "3be94f57-f3fe-4b12-934b-683924d14ff5", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_273", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41275, "password": "548ed799-cd43-49c1-b6b4-113c44b7b029", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_274", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41275, "password": "03e8e998-903d-4833-ac15-17778e830635", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "俄罗斯_275", "type": "vless", "server": "45.144.52.229", "port": 443, "uuid": "ba9ddd0d-5ffd-4d40-b76d-df32ecb092a1",
+  "tls": true, "servername": "ficdn2.suio.me", "network": "tcp", "skip-cert-verify": 
+    false}
+- {"name": "中国_276", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41275, "password": "4274c8f0-7282-4174-bd21-de1e9854a581", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_277", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41275, "password": "7f842e9a-ca4a-49b1-8280-028d5822beb4", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "美国_278", "type": "vless", "server": "44ce-8817-7d9a13aa9eb0.457.pp.ua",
+  "port": 443, "uuid": "a1d2e3cd-297e-4753-8e7a-6d9fb0f4aac1", "tls": true, "servername": "44ce-8817-7d9a13aa9eb0.457.pp.ua",
+  "network": "xhttp", "skip-cert-verify": false}
+- {"name": "中国_279", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41274, "password": "b3682da3-bfbb-464b-8f48-b89a8effee58", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_280", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41273, "password": "b0f57697-e62f-45d5-bdfd-e12b8c3d3fee", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_281", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "7c3d686d-bbcf-40b0-8ae2-976172d6c687", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_282", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41275, "password": "ad8c3eed-70b9-4a22-94ca-b16e888290da", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_283", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41275, "password": "5a15ac8f-c047-42c5-8074-d87271bd87b2", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_284", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41274, "password": "3ca28fac-3fa3-4ee4-be19-41ca7ce062ca", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_285", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41275, "password": "a6028e06-0823-4101-b5dc-f77c92343221", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_286", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41275, "password": "995cbdf3-efe4-4fae-a19f-4af83d325327", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_287", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41275, "password": "c30d5cba-aa70-4588-86b5-4cc897839ab8", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_288", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "3cd4f1e9-17ac-446e-a6e4-bc881ce07c03", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_289", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41275, "password": "85f8429e-8acf-4834-bf52-c3e410f1b27a", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "美国_290", "type": "vmess", "server": "47.236.110.28", "port": 8080, "uuid": "c215c685-8bbd-4d35-9e44-068738b9c4c1",
+  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
+- {"name": "美国_291", "type": "vmess", "server": "47.236.24.105", "port": 8080, "uuid": "86137bb9-1af9-45f4-aab5-94800fbfbb36",
+  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
+- {"name": "中国_292", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "093a0f3a-b3b1-4e0e-a650-d23b9c10ada2", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "中国_293", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    41275, "password": "c22516d4-a4a2-4c62-917f-b73437d5827c", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "俄罗斯_294", "type": "vless", "server": "dostupbypass3.suio.me", "port": 
+    443, "uuid": "ba9ddd0d-5ffd-4d40-b76d-df32ecb092a1", "tls": false, "servername": "api-maps.yandex.ru",
+  "network": "tcp", "skip-cert-verify": false}
+- {"name": "中国_295", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
+    49213, "password": "3b04e7d4-6bd6-4293-9cb4-5b001b6775fe", "udp": true, "skip-cert-verify": 
+    true}
