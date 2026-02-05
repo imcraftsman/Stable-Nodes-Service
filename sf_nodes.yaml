@@ -1,882 +1,899 @@
 proxies:
-- {"name": "中国台湾_1", "type": "vless", "server": "hinet4.gzcloud.shop", "port": 
-    20280, "uuid": "a2d12dc9-c111-45ac-b803-87e48f3484d8", "tls": false, "servername": "buylite.music.apple.com",
-  "network": "tcp", "skip-cert-verify": false}
-- {"name": "美国_3", "type": "vless", "server": "104.233.211.85.sslip.io", "port": 
-    443, "uuid": "a5e71861-2fba-4040-a8e4-a215305f37c4", "tls": true, "servername": "104.233.211.85.sslip.io",
-  "network": "grpc", "skip-cert-verify": false}
-- {"name": "美国_4", "type": "vless", "server": "104.21.31.4", "port": 8880, "uuid": "0a5ab719-2407-4398-b507-8437ef365023",
-  "tls": false, "network": "ws", "ws-opts": {"path": "/FCHANNEL---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY",
-    "headers": {"host": "underthegun.cfd."}}}
-- {"name": "黎巴嫩_5", "type": "vless", "server": "decdn13.suio.me", "port": 443, "uuid": "a7a9f670-44c0-45a9-8047-69db0203c142",
-  "tls": true, "servername": "decdn13.suio.me", "network": "tcp", "skip-cert-verify": 
-    false}
-- {"name": "中国香港_6", "type": "trojan", "server": "58.152.53.45", "port": 443, "password": "BxceQaOe",
-  "udp": true, "skip-cert-verify": true}
-- {"name": "中国香港_7", "type": "trojan", "server": "219.76.135.98", "port": 443, "password": "BxceQaOe",
-  "udp": true, "skip-cert-verify": true}
-- {"name": "中国_8", "type": "vless", "server": "43.165.190.11", "port": 42841, "uuid": "00000000-0000-4000-8000-000000000000",
-  "tls": true, "servername": "mot.morisi.ggff.net", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/@Marisa_kristi", "headers": {"host": "mot.morisi.ggff.net"}}}
-- {"name": "中国香港_9", "type": "trojan", "server": "58.152.53.45", "port": 443, "password": "BxceQaOe",
-  "udp": true, "skip-cert-verify": true}
-- {"name": "美国_10", "type": "vmess", "server": "172.67.219.254", "port": 443, "uuid": "0c6b96bc-5e3a-4500-8497-6dead1965609",
-  "tls": true, "servername": "42214edb-ec81-4091-bfa7-c4ced68ee019.661.qzz.io", "network": "ws",
-  "skip-cert-verify": false, "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/KHtPvNZl371C8NsbbZ1wwDhJ3",
-    "headers": {"host": "42214edb-ec81-4091-bfa7-c4ced68ee019.661.qzz.io"}}}
-- {"name": "美国_11", "type": "vmess", "server": "dddffghju.857657.xyz", "port": 
-    443, "uuid": "a5e71861-2fba-4040-a8e4-a215305f37c4", "tls": true, "servername": "dddffghju.857657.xyz",
-  "network": "ws", "skip-cert-verify": false, "alterId": 0, "cipher": "auto", "ws-opts": {
-    "path": "/bkIJxIKIV4ENhXs7", "headers": {"host": "dddffghju.857657.xyz"}}}
-- {"name": "美国_12", "type": "trojan", "server": "6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io",
-  "port": 443, "password": "0c6b96bc-5e3a-4500-8497-6dead1965609", "sni": "6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io",
-  "udp": true, "skip-cert-verify": false}
-- {"name": "美国_13", "type": "trojan", "server": "104.233.211.85.sslip.io", "port": 
-    443, "password": "a5e71861-2fba-4040-a8e4-a215305f37c4", "sni": "104.233.211.85.sslip.io",
-  "udp": true, "skip-cert-verify": false}
-- {"name": "美国_14", "type": "vmess", "server": "104.233.211.85.sslip.io", "port": 
-    443, "uuid": "a5e71861-2fba-4040-a8e4-a215305f37c4", "tls": true, "servername": "104.233.211.85.sslip.io",
-  "network": "grpc", "skip-cert-verify": false, "alterId": 0, "cipher": "auto"}
-- {"name": "美国_15", "type": "vmess", "server": "dddffghyu.857657.xyz", "port": 
-    443, "uuid": "a5e71861-2fba-4040-a8e4-a215305f37c4", "tls": true, "servername": "dddffghyu.857657.xyz",
-  "network": "ws", "skip-cert-verify": false, "alterId": 0, "cipher": "auto", "ws-opts": {
-    "path": "/bkIJxIKIV4ENhXs7", "headers": {"host": "dddffghyu.857657.xyz"}}}
-- {"name": "黎巴嫩_16", "type": "vless", "server": "decdn13.suio.me", "port": 443, "uuid": "a7a9f670-44c0-45a9-8047-69db0203c142",
-  "tls": true, "servername": "decdn13.suio.me", "network": "tcp", "skip-cert-verify": 
-    false}
-- {"name": "美国_17", "type": "vless", "server": "6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io",
-  "port": 443, "uuid": "0c6b96bc-5e3a-4500-8497-6dead1965609", "tls": true, "servername": "6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io",
-  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/QMV9N8sI6UlesbbZ1wwDhJ3",
-    "headers": {"host": "6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io"}}}
-- {"name": "美国_18", "type": "vless", "server": "104.233.211.85", "port": 443, "uuid": "a5e71861-2fba-4040-a8e4-a215305f37c4",
-  "tls": true, "network": "grpc", "skip-cert-verify": false}
-- {"name": "中国香港_19", "type": "trojan", "server": "58.152.53.45", "port": 443, "password": "BxceQaOe",
-  "udp": true, "skip-cert-verify": true}
-- {"name": "美国_20", "type": "vless", "server": "167.68.42.238", "port": 2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+- {"name": "美国_1", "type": "vless", "server": "162.251.82.238", "port": 2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
   "tls": true, "servername": "sni.jpmj.dev", "network": "ws", "skip-cert-verify": 
     false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.jpmj.dev"}}}
-- {"name": "美国_21", "type": "trojan", "server": "dddffghyu.857657.xyz", "port": 
-    443, "password": "a5e71861-2fba-4040-a8e4-a215305f37c4", "sni": "dddffghyu.857657.xyz",
-  "udp": true, "skip-cert-verify": false}
-- {"name": "美国_22", "type": "vless", "server": "fennekin.bluehat358.biz.id", "port": 
+- {"name": "中国台湾_2", "type": "vless", "server": "hinet4.gzcloud.shop", "port": 
+    20280, "uuid": "a2d12dc9-c111-45ac-b803-87e48f3484d8", "tls": false, "servername": "buylite.music.apple.com",
+  "network": "tcp", "skip-cert-verify": false}
+- {"name": "新加坡_3", "type": "vless", "server": "168.138.189.91", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.jpmj.dev", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.jpmj.dev"}}}
+- {"name": "韩国_5", "type": "vless", "server": "121.154.180.50", "port": 51698, "uuid": "5d42cfef-0556-4f0c-bfb7-161aef500ab5",
+  "tls": false, "servername": "lenovoglobal.com", "network": "grpc", "skip-cert-verify": 
+    false}
+- {"name": "美国_6", "type": "vless", "server": "fennekin.bluehat358.biz.id", "port": 
     443, "uuid": "0107bb0b-da74-4afb-b31d-d9336ec29cbb", "tls": true, "servername": "fennekin.bluehat358.biz.id",
   "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/91.149.239.70-443",
     "headers": {"host": "fennekin.bluehat358.biz.id"}}}
-- {"name": "美国_23", "type": "vless", "server": "50.62.198.138", "port": 2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
-- {"name": "英国_24", "type": "vmess", "server": "82.198.246.97", "port": 180, "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-  "tls": false, "network": "tcp", "alterId": 0, "cipher": "auto"}
-- {"name": "美国_25", "type": "vless", "server": "60a22220-8a8f-46e7-82ba-76d42df68c34.661.qzz.io",
-  "port": 443, "uuid": "0c6b96bc-5e3a-4500-8497-6dead1965609", "tls": true, "servername": "60a22220-8a8F-46E7-82Ba-76D42df68C34.661.qzz.IO",
-  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/QMV9N8sI6UlesbbZ1wwDhJ3",
-    "headers": {"host": "60a22220-8a8F-46E7-82bA-76D42DF68C34.661.QZz.Io"}}}
-- {"name": "英国_26", "type": "vless", "server": "141.11.203.238", "port": 2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-  "tls": true, "servername": "sni.jpmj.dev", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.jpmj.dev"}}}
-- {"name": "中国香港_27", "type": "trojan", "server": "58.152.53.45", "port": 443, "password": "BxceQaOe",
-  "udp": true, "skip-cert-verify": true}
-- {"name": "美国_28", "type": "vless", "server": "v3.dabache.top", "port": 443, "uuid": "d89d6641-3b1a-4f51-a194-9c9109fd21b6",
+- {"name": "美国_7", "type": "vless", "server": "v3.dabache.top", "port": 443, "uuid": "d89d6641-3b1a-4f51-a194-9c9109fd21b6",
   "tls": true, "servername": "DiprOX.pages.DEV", "network": "ws", "skip-cert-verify": 
     false, "ws-opts": {"path": "/assets", "headers": {"host": "DiprOX.pages.DEV"}}}
-- {"name": "美国_29", "type": "vless", "server": "dddffghyu.857657.xyz", "port": 
-    443, "uuid": "a5e71861-2fba-4040-a8e4-a215305f37c4", "tls": true, "servername": "dddffghyu.857657.xyz",
-  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/nv8ntnDfr2XA4ENhXs7",
-    "headers": {"host": "dddffghyu.857657.xyz"}}}
-- {"name": "美国_30", "type": "trojan", "server": "fffffffffffffffffgg.857657.xyz",
-  "port": 443, "password": "a5e71861-2fba-4040-a8e4-a215305f37c4", "sni": "fffffffffffffffffgg.857657.xyz",
-  "udp": true, "skip-cert-verify": false}
-- {"name": "美国_31", "type": "trojan", "server": "104.21.16.217", "port": 8443, "password": "123456",
-  "sni": "Bpbg.AngusweN.TOP", "udp": true, "skip-cert-verify": false}
-- {"name": "中国香港_32", "type": "trojan", "server": "219.76.135.98", "port": 443, "password": "BxceQaOe",
-  "udp": true, "skip-cert-verify": true}
-- {"name": "中国_33", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41275, "password": "783441ab-098f-4fbf-8ca3-ece3a126351d", "sni": "douyin.com",
-  "udp": true, "skip-cert-verify": true}
-- {"name": "美国_34", "type": "vless", "server": "tttgghji.857657.xyz", "port": 
-    443, "uuid": "a5e71861-2fba-4040-a8e4-a215305f37c4", "tls": true, "servername": "tttgghji.857657.xyz",
-  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/nv8ntnDfr2XA4ENhXs7",
-    "headers": {"host": "tttgghji.857657.xyz"}}}
-- {"name": "美国_35", "type": "vless", "server": "creativecommons.org", "port": 
-    443, "uuid": "d89d6641-3b1a-4f51-a194-9c9109fd21b6", "tls": true, "servername": "DiprOX.pages.DEV",
-  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/assets", "headers": {
-      "host": "diprox.pages.dev"}}}
-- {"name": "美国_36", "type": "hysteria2", "server": "us.jljd.xyz", "port": 12345, "password": "6dfbef3b-f718-4053-806f-c9657e2fd943",
-  "sni": "us.jljd.xyz", "udp": true, "skip-cert-verify": false, "alpn": ["http/1.1"]}
-- {"name": "美国_37", "type": "vless", "server": "172.67.219.254", "port": 443, "uuid": "0c6b96bc-5e3a-4500-8497-6dead1965609",
-  "tls": true, "servername": "A3B87cD8-6088-491d-89A7-ec62507C904f.661.Qzz.IO", "network": "ws",
-  "skip-cert-verify": false, "ws-opts": {"path": "/QMV9N8sI6UlesbbZ1wwDhJ3", "headers": {
-      "host": "A3B87cD8-6088-491D-89a7-EC62507c904F.661.QZZ.io"}}}
-- {"name": "中国香港_38", "type": "trojan", "server": "219.76.135.98", "port": 443, "password": "BxceQaOe",
-  "udp": true, "skip-cert-verify": true}
-- {"name": "美国_39", "type": "trojan", "server": "dddffghju.857657.xyz", "port": 
-    443, "password": "a5e71861-2fba-4040-a8e4-a215305f37c4", "sni": "dddffghju.857657.xyz",
-  "udp": true, "skip-cert-verify": false}
-- {"name": "美国_40", "type": "vmess", "server": "tttgghji.857657.xyz", "port": 80,
-  "uuid": "a5e71861-2fba-4040-a8e4-a215305f37c4", "tls": false, "servername": "tttgghji.857657.xyz",
-  "network": "ws", "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/bkIJxIKIV4ENhXs7",
-    "headers": {"host": "tttgghji.857657.xyz"}}}
-- {"name": "美国_41", "type": "vless", "server": "dddffghju.857657.xyz", "port": 
-    443, "uuid": "a5e71861-2fba-4040-a8e4-a215305f37c4", "tls": true, "servername": "dddffghju.857657.xyz",
-  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/nv8ntnDfr2XA4ENhXs7",
-    "headers": {"host": "dddffghju.857657.xyz"}}}
-- {"name": "美国_42", "type": "trojan", "server": "jjjjjjjjjjjjjjjjjjjk.857657.xyz",
-  "port": 443, "password": "a5e71861-2fba-4040-a8e4-a215305f37c4", "sni": "jjjjjjjjjjjjjjjjjjjk.857657.xyz",
-  "udp": true, "skip-cert-verify": false}
-- {"name": "中国_43", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41275, "password": "b5e8da8f-4df3-49f1-93c0-c5d26f10c683", "sni": "douyin.com",
-  "udp": true, "skip-cert-verify": true}
-- {"name": "美国_44", "type": "vmess", "server": "6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io",
-  "port": 443, "uuid": "0c6b96bc-5e3a-4500-8497-6dead1965609", "tls": true, "network": "ws",
-  "skip-cert-verify": false, "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/KHtPvNZl371C8NsbbZ1wwDhJ3",
-    "headers": {"host": "6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io"}}}
-- {"name": "美国_45", "type": "vless", "server": "rrrrrrrrrrrghhh.857657.xyz", "port": 
-    443, "uuid": "a5e71861-2fba-4040-a8e4-a215305f37c4", "tls": true, "servername": "rrrrrrrrrrrghhh.857657.xyz",
-  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/nv8ntnDfr2XA4ENhXs7",
-    "headers": {"host": "rrrrrrrrrrrghhh.857657.xyz"}}}
-- {"name": "美国_46", "type": "vless", "server": "162.251.82.238", "port": 2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-  "tls": true, "servername": "sni.jpmj.dev", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.jpmj.dev"}}}
-- {"name": "西班牙_47", "type": "trojan", "server": "109.234.211.66", "port": 2087, "password": "trojan",
-  "sni": "store.timimi.dpdns.org", "udp": true, "skip-cert-verify": false}
-- {"name": "美国_48", "type": "trojan", "server": "rrrrrrrrrrrghhh.857657.xyz", "port": 
-    443, "password": "a5e71861-2fba-4040-a8e4-a215305f37c4", "sni": "rrrrrrrrrrrghhh.857657.xyz",
-  "udp": true, "skip-cert-verify": false}
-- {"name": "美国_49", "type": "vmess", "server": "6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io",
-  "port": 443, "uuid": "0c6b96bc-5e3a-4500-8497-6dead1965609", "tls": true, "servername": "6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io",
-  "network": "ws", "skip-cert-verify": false, "alterId": 0, "cipher": "auto", "ws-opts": {
-    "path": "/KHtPvNZl371C8NsbbZ1wwDhJ3", "headers": {"host": "6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io"}}}
-- {"name": "俄罗斯_50", "type": "vless", "server": "194.59.5.138", "port": 2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+- {"name": "美国_8", "type": "vless", "server": "54.151.41.196", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
   "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
     false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
-- {"name": "美国_51", "type": "vmess", "server": "jjjjjjjjjjjjjjjjjjjk.857657.xyz",
-  "port": 443, "uuid": "a5e71861-2fba-4040-a8e4-a215305f37c4", "tls": true, "servername": "jjjjjjjjjjjjjjjjjjjk.857657.xyz",
-  "network": "ws", "skip-cert-verify": false, "alterId": 0, "cipher": "auto", "ws-opts": {
-    "path": "/bkIJxIKIV4ENhXs7", "headers": {"host": "jjjjjjjjjjjjjjjjjjjk.857657.xyz"}}}
-- {"name": "日本_52", "type": "vless", "server": "103.116.7.138", "port": 2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+- {"name": "美国_9", "type": "vless", "server": "104.17.180.16", "port": 443, "uuid": "4c642cae-1a6d-4e51-a1c3-fa5892437aa3",
+  "tls": true, "servername": "5465765525.ccfly.tech", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2048", "headers": {"host": "5465765525.ccfly.tech"}}}
+- {"name": "美国_10", "type": "vless", "server": "97.64.26.199", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
   "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
     false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
-- {"name": "美国_53", "type": "vless", "server": "jjjjjjjjjjjjjjjjjjjk.857657.xyz",
-  "port": 443, "uuid": "a5e71861-2fba-4040-a8e4-a215305f37c4", "tls": true, "servername": "jjjjjjjjjjjjjjjjjjjk.857657.xyz",
-  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/nv8ntnDfr2XA4ENhXs7",
-    "headers": {"host": "jjjjjjjjjjjjjjjjjjjk.857657.xyz"}}}
-- {"name": "美国_54", "type": "vmess", "server": "dddffghyu.857657.xyz", "port": 
-    80, "uuid": "a5e71861-2fba-4040-a8e4-a215305f37c4", "tls": false, "servername": "dddffghyu.857657.xyz",
-  "network": "ws", "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/bkIJxIKIV4ENhXs7",
-    "headers": {"host": "dddffghyu.857657.xyz"}}}
-- {"name": "美国_55", "type": "vmess", "server": "rrrrrrrrrrrghhh.857657.xyz", "port": 
-    443, "uuid": "a5e71861-2fba-4040-a8e4-a215305f37c4", "tls": true, "servername": "rrrrrrrrrrrghhh.857657.xyz",
-  "network": "ws", "skip-cert-verify": false, "alterId": 0, "cipher": "auto", "ws-opts": {
-    "path": "/bkIJxIKIV4ENhXs7", "headers": {"host": "rrrrrrrrrrrghhh.857657.xyz"}}}
-- {"name": "日本_57", "type": "vless", "server": "103.116.7.238", "port": 2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-  "tls": true, "servername": "sni.jpmj.dev", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.jpmj.dev"}}}
-- {"name": "美国_58", "type": "vmess", "server": "aio.unlimited.biz.id", "port": 
+- {"name": "美国_11", "type": "vmess", "server": "aio.unlimited.biz.id", "port": 
     443, "uuid": "f282b878-8711-45a1-8c69-5564172123c1", "tls": true, "servername": "aio.unlimited.biz.id",
   "network": "ws", "skip-cert-verify": false, "alterId": 0, "cipher": "auto", "ws-opts": {
     "path": "/aioproxybot/129.150.49.58-18650", "headers": {"host": "aio.unlimited.biz.id"}}}
-- {"name": "美国_59", "type": "vless", "server": "ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz",
-  "port": 443, "uuid": "0e8a6896-ad90-4a3b-89a3-77d64aa409e2", "tls": false, "servername": "i2pd.website",
-  "network": "tcp", "skip-cert-verify": false}
-- {"name": "美国_60", "type": "trojan", "server": "vip1.kaixincloud.top", "port": 
-    8443, "password": "T9BpZIVMNv", "sni": "sweden.vmaxpanel.com", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "法国_61", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
-    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
-  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN",
-    "headers": {"host": "2001:bc8:32d7:302::10"}}}
-- {"name": "法国_62", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
-    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
-  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?ed=2048", "headers": {"host": "2001:bc8:32d7:302::10"}}}
-- {"name": "美国_63", "type": "vless", "server": "nodejs.org", "port": 80, "uuid": "6abc2840-25fd-4dd7-b1aa-0892fe98f2d9",
-  "tls": false, "network": "ws", "ws-opts": {"path": "/?ed", "headers": {"host": "mysterious-check94bl5oxq6c.ecotouriss.co.uk."}}}
-- {"name": "Nofound_64", "type": "trojan", "server": "162.159.152.4", "port": 
-    8443, "password": "T9BpZIVMNv", "sni": "sweden.vmaxpanel.com", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "美国_65", "type": "vless", "server": "vip2.kaixincloud.top", "port": 
+- {"name": "日本_12", "type": "vless", "server": "103.116.7.138", "port": 2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_13", "type": "vless", "server": "172.67.219.254", "port": 443, "uuid": "0c6b96bc-5e3a-4500-8497-6dead1965609",
+  "tls": true, "servername": "A3B87cD8-6088-491d-89A7-ec62507C904f.661.Qzz.IO", "network": "ws",
+  "skip-cert-verify": false, "ws-opts": {"path": "/QMV9N8sI6UlesbbZ1wwDhJ3", "headers": {
+      "host": "A3B87cD8-6088-491D-89a7-EC62507c904F.661.QZZ.io"}}}
+- {"name": "美国_14", "type": "vless", "server": "3.78.24.246", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "英国_15", "type": "vless", "server": "45.12.30.238", "port": 2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.jpmj.dev", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.jpmj.dev"}}}
+- {"name": "中国香港_16", "type": "vless", "server": "154.197.80.238", "port": 2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.jpmj.dev", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.jpmj.dev"}}}
+- {"name": "中国香港_17", "type": "trojan", "server": "219.76.135.98", "port": 443, "password": "BxceQaOe",
+  "udp": true, "skip-cert-verify": true}
+- {"name": "中国香港_18", "type": "trojan", "server": "219.76.135.98", "port": 443, "password": "BxceQaOe",
+  "udp": true, "skip-cert-verify": true}
+- {"name": "英国_19", "type": "vless", "server": "158.180.69.78", "port": 12198, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.jpmj.dev", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.jpmj.dev"}}}
+- {"name": "Nofound_20", "type": "vless", "server": "190.93.244.238", "port": 
+    2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d", "tls": true, "servername": "sni.jpmj.dev",
+  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2",
+    "headers": {"host": "sni.jpmj.dev"}}}
+- {"name": "美国_21", "type": "vless", "server": "vip2.kaixincloud.top", "port": 
     2053, "uuid": "e5f8a9f6-f164-479b-b3b5-b90f213c7145", "tls": true, "servername": "ir1.airpanel.top",
   "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/", "headers": {
       "host": "ir1.airpanel.top"}}}
-- {"name": "澳大利亚_66", "type": "vless", "server": "185.207.197.138", "port": 2096,
-  "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d", "tls": true, "servername": "sni.111000.indevs.in",
-  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2",
-    "headers": {"host": "sni.111000.indevs.in"}}}
-- {"name": "中国香港_67", "type": "trojan", "server": "58.152.53.45", "port": 443, "password": "BxceQaOe",
+- {"name": "美国_22", "type": "vless", "server": "60a22220-8a8f-46e7-82ba-76d42df68c34.661.qzz.io",
+  "port": 443, "uuid": "0c6b96bc-5e3a-4500-8497-6dead1965609", "tls": true, "servername": "60a22220-8a8F-46E7-82Ba-76D42df68C34.661.qzz.IO",
+  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/QMV9N8sI6UlesbbZ1wwDhJ3",
+    "headers": {"host": "60a22220-8a8F-46E7-82bA-76D42DF68C34.661.QZz.Io"}}}
+- {"name": "俄罗斯_23", "type": "vless", "server": "77.105.163.138", "port": 2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "黎巴嫩_24", "type": "vless", "server": "decdn13.suio.me", "port": 443, "uuid": "a7a9f670-44c0-45a9-8047-69db0203c142",
+  "tls": true, "servername": "decdn13.suio.me", "network": "tcp", "skip-cert-verify": 
+    false}
+- {"name": "美国_25", "type": "vless", "server": "138.2.32.76", "port": 15821, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.jpmj.dev", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.jpmj.dev"}}}
+- {"name": "中国香港_26", "type": "trojan", "server": "219.76.135.98", "port": 443, "password": "BxceQaOe",
   "udp": true, "skip-cert-verify": true}
-- {"name": "法国_68", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
-    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
-  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/", "headers": {"host": "2001:bc8:32d7:302::10"}}}
-- {"name": "法国_69", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
-    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
-  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?ed=2048", "headers": {"host": "2001:bc8:32d7:302::10"}}}
-- {"name": "伊朗_70", "type": "vless", "server": "62.60.156.158", "port": 8082, "uuid": "00000000-0000-4000-8000-000000000000",
-  "tls": true, "servername": "ennyfe.zipgd3vx91o.ddns-ip.net", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/@Marisa_kristi", "headers": {"host": "ennyfe.zipgd3vx91o.ddns-ip.net"}}}
-- {"name": "法国_71", "type": "vless", "server": "2001:bc8:32d7:302::13", "port": 
-    34324, "uuid": "26c462ba-a90c-4814-9d7c-a629bc0bdb5c", "tls": false, "servername": "dash.cloudflare.com",
-  "network": "tcp", "skip-cert-verify": false}
-- {"name": "美国_72", "type": "vmess", "server": "mmKk.wWW890604.dpdns.OrG", "port": 
-    80, "uuid": "5cccb4da-8aee-4b01-be84-2056265e52dc", "tls": false, "servername": "MmKk.wwW890604.DpDns.ORG",
-  "network": "ws", "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/AwUJyGh9Ym6vVzg35A6ueyyZnWd",
-    "headers": {"host": "mmKk.wWW890604.DPdNS.OrG"}}}
-- {"name": "美国_73", "type": "vless", "server": "47.80.12.87", "port": 443, "uuid": "3e7f67de-648e-4871-b51a-a225214d41ee",
-  "tls": false, "servername": "api.company-target.com", "network": "tcp", "skip-cert-verify": 
+- {"name": "日本_27", "type": "vless", "server": "103.116.7.238", "port": 2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.jpmj.dev", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.jpmj.dev"}}}
+- {"name": "保加利亚_28", "type": "vless", "server": "147.78.140.238", "port": 2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.jpmj.dev", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.jpmj.dev"}}}
+- {"name": "英国_29", "type": "vless", "server": "141.11.203.238", "port": 2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.jpmj.dev", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.jpmj.dev"}}}
+- {"name": "美国_30", "type": "trojan", "server": "205.185.115.223", "port": 19258,
+  "password": "iWnFtzMiac", "sni": "cloudflare.com", "udp": true, "skip-cert-verify": 
     false}
-- {"name": "法国_74", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
-    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
-  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "?ed=2048", "headers": {"host": "2001:bc8:32d7:302::10"}}}
-- {"name": "美国_75", "type": "vless", "server": "kkko.iran1912.dpdns.org", "port": 
-    443, "uuid": "4a7baca1-8048-4a91-8316-595b36657a54", "tls": true, "servername": "kkkO.IrAn1912.dPdNs.org",
-  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/v4mECBsrKh5tvsvinsGGg",
-    "headers": {"host": "KkKo.irAN1912.DpdnS.OrG"}}}
-- {"name": "美国_76", "type": "trojan", "server": "yyyyu.taiwan2026.indevs.in", "port": 
-    443, "password": "fc3704d6-8e5e-443a-bd5b-20ec7cfbe990", "sni": "yyyyu.taiwan2026.indevs.in",
-  "udp": true, "skip-cert-verify": false}
-- {"name": "美国_77", "type": "vmess", "server": "rrrrrrt.7777125.xyz", "port": 
-    443, "uuid": "fc3704d6-8e5e-443a-bd5b-20ec7cfbe990", "tls": true, "servername": "rrrrrrt.7777125.xyz",
-  "network": "ws", "skip-cert-verify": false, "alterId": 0, "cipher": "auto", "ws-opts": {
-    "path": "/eszjp4nTT8TxDHFepMpfNkCk8", "headers": {"host": "rrrrrrt.7777125.xyz"}}}
-- {"name": "伊朗_78", "type": "vless", "server": "62.60.156.158", "port": 8082, "uuid": "00000000-0000-4000-8000-000000000000",
-  "tls": true, "servername": "ennyfe.zipgd3vx91o.ddns-ip.net", "network": "ws", "skip-cert-verify": 
-    true, "ws-opts": {"path": "/@Marisa_kristi", "headers": {"host": "ennyfe.zipgd3vx91o.ddns-ip.net"}}}
-- {"name": "伊朗_79", "type": "vless", "server": "62.60.156.158", "port": 8082, "uuid": "00000000-0000-4000-8000-000000000000",
-  "tls": true, "servername": "ennyfe.zipgd3vx91o.ddns-ip.net", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/@Marisa_kristi", "headers": {"host": "62.60.156.158"}}}
-- {"name": "美国_80", "type": "vless", "server": "47.80.11.87", "port": 443, "uuid": "3e7f67de-648e-4871-b51a-a225214d41ee",
-  "tls": false, "servername": "api.company-target.com", "network": "tcp", "skip-cert-verify": 
-    false}
-- {"name": "法国_81", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
-    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
-  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560",
-    "headers": {"host": "AZERB.NET"}}}
-- {"name": "中国_82", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41275, "password": "2bf30463-c661-48ab-9d2b-e36f6b499770", "sni": "douyin.com",
-  "udp": true, "skip-cert-verify": true}
-- {"name": "美国_83", "type": "vless", "server": "nodejs.org", "port": 80, "uuid": "6abc2840-25fd-4dd7-b1aa-0892fe98f2d9",
-  "tls": false, "network": "ws", "ws-opts": {"path": "/?ed", "headers": {"host": "MySterIOUS-chECk94Bl5oXQ6C.eCoTOUriSs.cO.uK."}}}
-- {"name": "中国_84", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41275, "password": "9ed47888-335d-457d-a979-3f392de8ed74", "sni": "douyin.com",
-  "udp": true, "skip-cert-verify": true}
-- {"name": "法国_85", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
-    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
-  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN",
-    "headers": {"host": "2001:bc8:32d7:302::10"}}}
-- {"name": "法国_86", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
-    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
-  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10",
-    "headers": {"host": "2001:bc8:32d7:302::10"}}}
-- {"name": "俄罗斯_87", "type": "vless", "server": "176.125.240.166", "port": 443, "uuid": "002accb526534fcab24a72b0ea1cff59",
-  "tls": false, "servername": "apple.com", "network": "tcp", "skip-cert-verify": 
-    false}
-- {"name": "法国_88", "type": "vmess", "server": "2001:bc8:32d7:302::11", "port": 
-    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
-  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560",
-    "headers": {"host": "TABRIZ.NET"}}}
-- {"name": "美国_89", "type": "vmess", "server": "bbbnmkl.2030.pp.ua", "port": 443,
-  "uuid": "5cccb4da-8aee-4b01-be84-2056265e52dc", "tls": true, "servername": "bbbnmkl.2030.pp.ua",
-  "network": "ws", "skip-cert-verify": false, "alterId": 0, "cipher": "auto", "ws-opts": {
-    "path": "/AwUJyGh9Ym6vVzg35A6ueyyZnWd", "headers": {"host": "bbbnmkl.2030.pp.ua"}}}
-- {"name": "俄罗斯_90", "type": "vless", "server": "78.153.139.68", "port": 8443, "uuid": "fd8972d7-cf5e-11f0-9970-45e1d80c4039",
-  "tls": false, "servername": "images.apple.com", "network": "tcp", "skip-cert-verify": 
-    false}
-- {"name": "美国_91", "type": "vless", "server": "ffvbg.7777125.xyz", "port": 443, "uuid": "fc3704d6-8e5e-443a-bd5b-20ec7cfbe990",
-  "tls": true, "servername": "ffvbg.7777125.xyz", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/D5oXRDxFepMpfNkCk8", "headers": {"host": "ffvbg.7777125.xyz"}}}
-- {"name": "法国_92", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
-    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
-  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/", "headers": {"host": "2001:bc8:32d7:302::10"}}}
-- {"name": "法国_93", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
-    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
-  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/", "headers": {"host": "AZERB.NET"}}}
-- {"name": "法国_94", "type": "vmess", "server": "2001:bc8:32d7:302::14", "port": 
-    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
-  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560",
-    "headers": {"host": "TABRIZ.NET"}}}
-- {"name": "法国_95", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
-    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
-  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN",
-    "headers": {"host": "2001:bc8:32d7:302::10"}}}
-- {"name": "法国_96", "type": "vmess", "server": "2001:bc8:32d7:302::15", "port": 
-    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
-  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1",
-    "headers": {"host": "TURK.NET"}}}
-- {"name": "法国_97", "type": "vmess", "server": "2001:bc8:32d7:302::17", "port": 
-    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
-  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1",
-    "headers": {"host": "AZERB.NET"}}}
-- {"name": "法国_98", "type": "vmess", "server": "2001:bc8:32d7:302::11", "port": 
-    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
-  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560",
-    "headers": {"host": "Azerb.NET"}}}
-- {"name": "美国_99", "type": "vless", "server": "208.103.161.110", "port": 443, "uuid": "8388434b-bbc8-4e00-b497-69a7f56f6e24",
-  "tls": true, "servername": "rAyAn-cOnFiG-it-1.pArSa.dPdNs.oRg", "network": "ws",
-  "skip-cert-verify": false, "ws-opts": {"path": "/ws", "headers": {"host": "208.103.161.110"}}}
-- {"name": "法国_100", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
-    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
-  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/", "headers": {"host": "2001:bc8:32d7:302::10"}}}
-- {"name": "美国_101", "type": "vless", "server": "bbbnmkl.taiwan2028.indevs.in", "port": 
-    443, "uuid": "5cccb4da-8aee-4b01-be84-2056265e52dc", "tls": true, "servername": "BBBNMkL.TaiwAn2028.INdEvS.iN",
-  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/s2VHv9VUVzg35A6ueyyZnWd",
-    "headers": {"host": "BbBNMkL.TAIWan2028.iNDEVs.In"}}}
-- {"name": "美国_102", "type": "vmess", "server": "vVVbNHj.191288.xYz", "port": 80,
-  "uuid": "5cccb4da-8aee-4b01-be84-2056265e52dc", "tls": false, "servername": "vvvbNHJ.191288.XYZ",
-  "network": "ws", "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/AwUJyGh9Ym6vVzg35A6ueyyZnWd",
-    "headers": {"host": "VvVBnHj.191288.XYZ"}}}
-- {"name": "中国_103", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41275, "password": "f421e0ce-015f-4fd2-b726-1cc96bf50bda", "sni": "douyin.com",
-  "udp": true, "skip-cert-verify": true}
-- {"name": "美国_104", "type": "vmess", "server": "ggghj.www890604.dpdns.org", "port": 
-    443, "uuid": "5cccb4da-8aee-4b01-be84-2056265e52dc", "tls": true, "servername": "ggghj.www890604.dpdns.org",
-  "network": "ws", "skip-cert-verify": false, "alterId": 0, "cipher": "auto", "ws-opts": {
-    "path": "/AwUJyGh9Ym6vVzg35A6ueyyZnWd", "headers": {"host": "ggghj.www890604.dpdns.org"}}}
-- {"name": "美国_105", "type": "trojan", "server": "60a22220-8a8f-46e7-82ba-76d42df68c34.661.qzz.io",
-  "port": 443, "password": "0c6b96bc-5e3a-4500-8497-6dead1965609", "sni": "60a22220-8A8f-46e7-82bA-76D42Df68c34.661.qZZ.Io",
-  "udp": true, "skip-cert-verify": false}
-- {"name": "美国_106", "type": "vless", "server": "104.18.32.47", "port": 80, "uuid": "4a8d4562-7192-4e83-8a24-75515a1666a3",
-  "tls": false, "network": "ws", "ws-opts": {"path": "/?ed", "headers": {"host": "fit-academyw21824ac8c.ecotouriss.co.uk."}}}
-- {"name": "美国_107", "type": "vless", "server": "mk.huangshang.online", "port": 
-    443, "uuid": "5cccb4da-8aee-4b01-be84-2056265e52dc", "tls": true, "servername": "MK.hUaNGshanG.oNLINe",
-  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/s2VHv9VUVzg35A6ueyyZnWd",
-    "headers": {"host": "mK.HUAnGShANg.ONliNe"}}}
-- {"name": "美国_108", "type": "vless", "server": "bbbnhj.288288.shop", "port": 
-    443, "uuid": "5cccb4da-8aee-4b01-be84-2056265e52dc", "tls": true, "servername": "bBBNhj.288288.sHop",
-  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/s2VHv9VUVzg35A6ueyyZnWd",
-    "headers": {"host": "BbbNHj.288288.SHop"}}}
-- {"name": "美国_109", "type": "trojan", "server": "kkko9.191288.xyz", "port": 443,
-  "password": "5cccb4da-8aee-4b01-be84-2056265e52dc", "sni": "kKko9.191288.xyz", "udp": 
-    true, "skip-cert-verify": false}
-- {"name": "美国_110", "type": "trojan", "server": "mmmhu.huangshang.online", "port": 
-    443, "password": "5cccb4da-8aee-4b01-be84-2056265e52dc", "sni": "mMMhU.HUangSHANG.onlIne",
-  "udp": true, "skip-cert-verify": false}
-- {"name": "俄罗斯_111", "type": "vless", "server": "176.125.240.166", "port": 443, "uuid": "002accb526534fcab24a72b0ea1cff59",
-  "tls": false, "servername": "apple.com", "network": "tcp", "skip-cert-verify": 
-    false}
-- {"name": "美国_112", "type": "vmess", "server": "hHHnmkl.288288.ShoP", "port": 
-    443, "uuid": "5cccb4da-8aee-4b01-be84-2056265e52dc", "tls": true, "servername": "HHhNmKL.288288.sHop",
-  "network": "ws", "skip-cert-verify": false, "alterId": 0, "cipher": "auto", "ws-opts": {
-    "path": "/AwUJyGh9Ym6vVzg35A6ueyyZnWd", "headers": {"host": "HHHnMkL.288288.SHop"}}}
-- {"name": "美国_113", "type": "vless", "server": "mmmk.288288.shop", "port": 443, "uuid": "5cccb4da-8aee-4b01-be84-2056265e52dc",
-  "tls": true, "servername": "mMMK.288288.shop", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/s2VHv9VUVzg35A6ueyyZnWd", "headers": {"host": "MMmK.288288.SHop"}}}
-- {"name": "美国_114", "type": "trojan", "server": "nmk.288288.shop", "port": 443, "password": "5cccb4da-8aee-4b01-be84-2056265e52dc",
-  "sni": "nMk.288288.sHOP", "udp": true, "skip-cert-verify": false}
-- {"name": "美国_115", "type": "trojan", "server": "vvvbnhj.191288.xyz", "port": 
-    443, "password": "5cccb4da-8aee-4b01-be84-2056265e52dc", "sni": "VvVBNhJ.191288.XyZ",
-  "udp": true, "skip-cert-verify": false}
-- {"name": "美国_116", "type": "vless", "server": "hhhjjkio.huangshang.online", "port": 
-    443, "uuid": "5cccb4da-8aee-4b01-be84-2056265e52dc", "tls": true, "servername": "hhHJJKIo.hUanGSHANg.OnlInE",
-  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/s2VHv9VUVzg35A6ueyyZnWd",
-    "headers": {"host": "HhHjJKio.HUANgSHANG.onLiNe"}}}
-- {"name": "美国_117", "type": "vless", "server": "mmmhu.huangshang.online", "port": 
-    443, "uuid": "5cccb4da-8aee-4b01-be84-2056265e52dc", "tls": true, "servername": "MmMhU.HuANGshaNG.ONLiNE",
-  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/s2VHv9VUVzg35A6ueyyZnWd",
-    "headers": {"host": "Mmmhu.HUaNGSHAng.onLInE"}}}
-- {"name": "美国_118", "type": "trojan", "server": "ggghj.www890604.dpdns.org", "port": 
-    443, "password": "5cccb4da-8aee-4b01-be84-2056265e52dc", "sni": "ggghj.www890604.dpdns.org",
-  "udp": true, "skip-cert-verify": false}
-- {"name": "美国_119", "type": "trojan", "server": "bbbbbb.taiwan2028.indevs.in", "port": 
-    443, "password": "5cccb4da-8aee-4b01-be84-2056265e52dc", "sni": "bbbBbb.taiwAN2028.INDevs.iN",
-  "udp": true, "skip-cert-verify": false}
-- {"name": "希腊_120", "type": "vless", "server": "185.234.57.207", "port": 443, "uuid": "dd92c4f8-be88-4c61-84eb-d261f798071e",
-  "tls": false, "servername": "teamdocs.su", "network": "tcp", "skip-cert-verify": 
-    false}
-- {"name": "美国_121", "type": "trojan", "server": "mmmk.288288.shop", "port": 443,
-  "password": "5cccb4da-8aee-4b01-be84-2056265e52dc", "sni": "Mmmk.288288.shoP", "udp": 
-    true, "skip-cert-verify": false}
-- {"name": "俄罗斯_122", "type": "vless", "server": "176.125.240.166", "port": 443, "uuid": "002accb526534fcab24a72b0ea1cff59",
-  "tls": false, "servername": "apple.com", "network": "tcp", "skip-cert-verify": 
-    false}
-- {"name": "美国_123", "type": "vless", "server": "hhhnmkl.288288.shop", "port": 
-    443, "uuid": "5cccb4da-8aee-4b01-be84-2056265e52dc", "tls": true, "servername": "HHhnmKl.288288.sHOP",
-  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/s2VHv9VUVzg35A6ueyyZnWd",
-    "headers": {"host": "HhHnMKL.288288.sHOP"}}}
-- {"name": "美国_124", "type": "vless", "server": "vvvbnhj.191288.xyz", "port": 
-    443, "uuid": "5cccb4da-8aee-4b01-be84-2056265e52dc", "tls": true, "servername": "vvVbnHj.191288.xyZ",
-  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/s2VHv9VUVzg35A6ueyyZnWd",
-    "headers": {"host": "vVVBNhj.191288.XYz"}}}
-- {"name": "美国_125", "type": "vless", "server": "kkko9.191288.xyz", "port": 443, "uuid": "5cccb4da-8aee-4b01-be84-2056265e52dc",
-  "tls": true, "servername": "KKkO9.191288.Xyz", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/s2VHv9VUVzg35A6ueyyZnWd", "headers": {"host": "kKKO9.191288.XyZ"}}}
-- {"name": "美国_126", "type": "vless", "server": "198.62.62.127", "port": 443, "uuid": "e6c7ed63-89db-4ae1-a3f8-7a722921b3b2",
-  "tls": true, "servername": "apii.onlineshoppingez.ir", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/O1w0n3vYgFKYs7EzNAvLPvOp", "headers": {"host": "apii.onlineshoppingez.ir"}}}
-- {"name": "美国_127", "type": "vless", "server": "fuck1.tawanaproxy.online", "port": 
-    80, "uuid": "c33275fd-a4fa-470d-90e4-55da39d849a8", "tls": false, "network": "ws",
-  "ws-opts": {"path": "/", "headers": {"host": "en.tawana.cf.panbehpanel.ir"}}}
-- {"name": "美国_128", "type": "vless", "server": "nodejs.org", "port": 2052, "uuid": "f8ae018b-b84d-4c9b-b03b-4642c3a25977",
-  "tls": false, "network": "ws", "ws-opts": {"path": "/?ed", "headers": {"host": "ExEMplAry-MILkytsxQiQYso.sPortlaNd.CoMPANy."}}}
-- {"name": "美国_129", "type": "trojan", "server": "v3.dabache.top", "port": 8443, "password": "T9BpZIVMNv",
-  "sni": "sweden.vmaxpanel.com", "udp": true, "skip-cert-verify": true}
-- {"name": "俄罗斯_130", "type": "vless", "server": "nl-78w-c.southnetworks.cloud", "port": 
-    80, "uuid": "094e66a9-8d92-41fe-85ad-8e7bf9b5fcaa", "tls": false, "network": "ws",
-  "ws-opts": {"path": "/getWorkerUpdates", "headers": {"host": "nl-78w-c.southnetworks.cloud"}}}
-- {"name": "美国_131", "type": "vmess", "server": "mMMhU.HuANGShAng.onLiNE", "port": 
-    443, "uuid": "5cccb4da-8aee-4b01-be84-2056265e52dc", "tls": true, "servername": "MmMhu.HuaNGsHANg.OnlINe",
-  "network": "ws", "skip-cert-verify": false, "alterId": 0, "cipher": "auto", "ws-opts": {
-    "path": "/AwUJyGh9Ym6vVzg35A6ueyyZnWd", "headers": {"host": "MmMhu.hUAngsHang.onlIne"}}}
-- {"name": "美国_132", "type": "trojan", "server": "mk.huangshang.online", "port": 
-    443, "password": "5cccb4da-8aee-4b01-be84-2056265e52dc", "sni": "mK.huAngshanG.OnlINe",
-  "udp": true, "skip-cert-verify": false}
-- {"name": "俄罗斯_133", "type": "vless", "server": "nl-78w-c.southnetworks.cloud", "port": 
-    80, "uuid": "094e66a9-8d92-41fe-85ad-8e7bf9b5fcaa", "tls": false, "servername": "nl-78w-c.southnetworks.cloud",
-  "network": "ws", "ws-opts": {"path": "/getWorkerUpdates", "headers": {"host": "nl-78w-c.southnetworks.cloud"}}}
-- {"name": "美国_134", "type": "vless", "server": "172.66.128.70", "port": 80, "uuid": "ba2bb9d8-9baa-45d6-9e0a-38c9cb6a6a9a",
-  "tls": false, "network": "ws", "ws-opts": {"path": "/?ed", "headers": {"host": "WeaK-preSSUrE3Ga6bzof92.sPorTlaNd.coMPANY."}}}
-- {"name": "美国_135", "type": "vmess", "server": "172.67.193.64", "port": 443, "uuid": "0c6b96bc-5e3a-4500-8497-6dead1965609",
-  "tls": true, "servername": "858C-ea07C71F67f1.X19890604.qZz.io", "network": "ws",
-  "skip-cert-verify": false, "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/KHtPvNZl371C8NsbbZ1wwDhJ3",
-    "headers": {"host": "858C-EA07c71F67F1.X19890604.qZZ.IO"}}}
-- {"name": "美国_136", "type": "vmess", "server": "bbBnMKl.tAiWan2028.iNdEvs.IN", "port": 
-    443, "uuid": "5cccb4da-8aee-4b01-be84-2056265e52dc", "tls": true, "servername": "BbBnMkL.taiwAN2028.iNDEvs.in",
-  "network": "ws", "skip-cert-verify": false, "alterId": 0, "cipher": "auto", "ws-opts": {
-    "path": "/AwUJyGh9Ym6vVzg35A6ueyyZnWd", "headers": {"host": "bbbNmKl.TaiWan2028.Indevs.IN"}}}
-- {"name": "美国_137", "type": "vless", "server": "ggghj.www890604.dpdns.org", "port": 
-    443, "uuid": "5cccb4da-8aee-4b01-be84-2056265e52dc", "tls": true, "servername": "ggghj.www890604.dpdns.org",
-  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/s2VHv9VUVzg35A6ueyyZnWd",
-    "headers": {"host": "ggghj.www890604.dpdns.org"}}}
-- {"name": "美国_138", "type": "vmess", "server": "jjjk.191268.xyz", "port": 443, "uuid": "5cccb4da-8aee-4b01-be84-2056265e52dc",
-  "tls": true, "servername": "jjjk.191268.xyz", "network": "ws", "skip-cert-verify": 
-    false, "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/AwUJyGh9Ym6vVzg35A6ueyyZnWd",
-    "headers": {"host": "jjjk.191268.xyz"}}}
-- {"name": "美国_139", "type": "vless", "server": "198.62.62.127", "port": 443, "uuid": "e6c7ed63-89db-4ae1-a3f8-7a722921b3b2",
-  "tls": true, "servername": "apii.onlineshoppingez.ir", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/O1w0n3vYgFKYs7EzNAvLPvOp", "headers": {"host": "apii.onlineshoppingez.ir"}}}
-- {"name": "美国_140", "type": "vmess", "server": "rrrgt.2030.pp.ua", "port": 80, "uuid": "fc3704d6-8e5e-443a-bd5b-20ec7cfbe990",
-  "tls": false, "servername": "rrrgt.2030.pp.ua", "network": "ws", "alterId": 0, "cipher": "auto",
-  "ws-opts": {"path": "/eszjp4nTT8TxDHFepMpfNkCk8", "headers": {"host": "rrrgt.2030.pp.ua"}}}
-- {"name": "美国_141", "type": "vmess", "server": "Hhhjjkio.huaNGshanG.OnliNe", "port": 
-    443, "uuid": "5cccb4da-8aee-4b01-be84-2056265e52dc", "tls": true, "servername": "HhhJJkIo.huANgsHANG.oNlINE",
-  "network": "ws", "skip-cert-verify": false, "alterId": 0, "cipher": "auto", "ws-opts": {
-    "path": "/AwUJyGh9Ym6vVzg35A6ueyyZnWd", "headers": {"host": "HhhjjKIo.huanGSHAng.OnLINE"}}}
-- {"name": "美国_142", "type": "vmess", "server": "MMMFFFGH.hUanGshAng.onlINe", "port": 
-    443, "uuid": "5cccb4da-8aee-4b01-be84-2056265e52dc", "tls": true, "servername": "MmMfFFGH.HUANGshAng.OnlINe",
-  "network": "ws", "skip-cert-verify": false, "alterId": 0, "cipher": "auto", "ws-opts": {
-    "path": "/AwUJyGh9Ym6vVzg35A6ueyyZnWd", "headers": {"host": "MMmFFfgh.HUAnGsHaNG.onLINE"}}}
-- {"name": "法国_143", "type": "vmess", "server": "2001:bc8:32d7:302::16", "port": 
-    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
-  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1",
-    "headers": {"host": "AZERB.NET"}}}
-- {"name": "法国_144", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
-    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
-  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1",
-    "headers": {"host": "2001:bc8:32d7:302::10"}}}
-- {"name": "俄罗斯_145", "type": "vless", "server": "78.153.139.68", "port": 8443, "uuid": "fd8972d7-cf5e-11f0-9970-45e1d80c4039",
-  "tls": false, "servername": "images.apple.com", "network": "tcp", "skip-cert-verify": 
-    false}
-- {"name": "美国_146", "type": "vmess", "server": "vvVBNhJ.191288.xyZ", "port": 
-    443, "uuid": "5cccb4da-8aee-4b01-be84-2056265e52dc", "tls": true, "servername": "vVvBnhJ.191288.xYz",
-  "network": "ws", "skip-cert-verify": false, "alterId": 0, "cipher": "auto", "ws-opts": {
-    "path": "/AwUJyGh9Ym6vVzg35A6ueyyZnWd", "headers": {"host": "VvvbnhJ.191288.xyZ"}}}
-- {"name": "美国_147", "type": "trojan", "server": "vip2.kaixincloud.top", "port": 
-    8443, "password": "T9BpZIVMNv", "sni": "sweden.vmaxpanel.com", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "塞尔维亚_148", "type": "vless", "server": "1.kkcweb.ir", "port": 2083, "uuid": "c805b05e-339d-40e0-8787-432d97a27345",
-  "tls": true, "servername": "hajfron.amirconfigpaanelllll.com", "network": "ws",
-  "skip-cert-verify": false, "ws-opts": {"path": "/", "headers": {"host": "1.kkcweb.ir"}}}
-- {"name": "美国_149", "type": "vless", "server": "nodejs.org", "port": 80, "uuid": "65fe56c2-78ec-417a-a666-9f393eac8b61",
-  "tls": false, "network": "ws", "ws-opts": {"path": "/?ed", "headers": {"host": "everlasting-offerc4s5mg1918.sportland.company."}}}
-- {"name": "俄罗斯_150", "type": "vless", "server": "194.76.18.25", "port": 443, "uuid": "8388434b-bbc8-4e00-b497-69a7f56f6e24",
-  "tls": true, "servername": "rAyAn-cOnFiG-it-1.pArSa.dPdNs.oRg", "network": "ws",
-  "skip-cert-verify": false, "ws-opts": {"path": "/ws", "headers": {"host": "194.76.18.25"}}}
-- {"name": "美国_151", "type": "vless", "server": "104.20.1.252", "port": 80, "uuid": "3775d133-dc3a-4a02-8095-5c70c328ae9f",
-  "tls": false, "network": "ws", "ws-opts": {"path": "/?ed", "headers": {"host": "HUge-ActOR48bf36fHJV.ecOTouriSS.co.uK."}}}
-- {"name": "美国_152", "type": "vless", "server": "nodejs.org", "port": 80, "uuid": "ba2bb9d8-9baa-45d6-9e0a-38c9cb6a6a9a",
-  "tls": false, "network": "ws", "ws-opts": {"path": "/?ed", "headers": {"host": "weak-pressure3ga6bzof92.sportland.company."}}}
-- {"name": "美国_153", "type": "vmess", "server": "ffffv.2030.pp.ua", "port": 443, "uuid": "fc3704d6-8e5e-443a-bd5b-20ec7cfbe990",
-  "tls": true, "servername": "ffffv.2030.pp.ua", "network": "ws", "skip-cert-verify": 
-    false, "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/eszjp4nTT8TxDHFepMpfNkCk8",
-    "headers": {"host": "ffffv.2030.pp.ua"}}}
-- {"name": "美国_154", "type": "trojan", "server": "eett.taiwan2026.indevs.in", "port": 
-    443, "password": "fc3704d6-8e5e-443a-bd5b-20ec7cfbe990", "sni": "eett.taiwan2026.indevs.in",
-  "udp": true, "skip-cert-verify": false}
-- {"name": "美国_155", "type": "vless", "server": "104.20.1.252", "port": 80, "uuid": "5eb9b54d-3c4e-4588-97f7-e53fe3e92c90",
-  "tls": false, "network": "ws", "ws-opts": {"path": "/?ed", "headers": {"host": "GLOrioUs-aRriVALHCRtzt96gb.sPORtlANd.cOMPAnY."}}}
-- {"name": "Nofound_156", "type": "vmess", "server": "160.191.245.48", "port": 
-    58623, "uuid": "8d74803e-aa74-47ef-e3ae-23eeaa96f89d", "tls": false, "network": "tcp",
-  "alterId": 0, "cipher": "auto"}
-- {"name": "美国_157", "type": "vmess", "server": "HhHjKI.tAIwAN2028.IndEVs.In", "port": 
-    443, "uuid": "5cccb4da-8aee-4b01-be84-2056265e52dc", "tls": true, "servername": "HhhJKi.TaIwaN2028.InDeVs.in",
-  "network": "ws", "skip-cert-verify": false, "alterId": 0, "cipher": "auto", "ws-opts": {
-    "path": "/AwUJyGh9Ym6vVzg35A6ueyyZnWd", "headers": {"host": "HHhJkI.TaIwan2028.INdevS.In"}}}
-- {"name": "美国_158", "type": "vmess", "server": "tttyu.2030.pp.ua", "port": 443, "uuid": "fc3704d6-8e5e-443a-bd5b-20ec7cfbe990",
-  "tls": true, "servername": "tttyu.2030.pp.ua", "network": "ws", "skip-cert-verify": 
-    false, "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/eszjp4nTT8TxDHFepMpfNkCk8",
-    "headers": {"host": "tttyu.2030.pp.ua"}}}
-- {"name": "美国_159", "type": "vless", "server": "mmkklop.191266.xyz", "port": 80,
-  "uuid": "5cccb4da-8aee-4b01-be84-2056265e52dc", "tls": false, "servername": "mmkKLop.191266.XyZ",
-  "network": "ws", "ws-opts": {"path": "/s2VHv9VUVzg35A6ueyyZnWd", "headers": {"host": "mmkKloP.191266.XyZ"}}}
-- {"name": "美国_160", "type": "vless", "server": "transferwise.com", "port": 443, "uuid": "979b6822-d65a-400d-89f8-30391903ac20",
-  "tls": true, "servername": "rAyAn-cOnFiG-uk-1.pArSa.dPdNs.oRg", "network": "ws",
-  "skip-cert-verify": false, "ws-opts": {"path": "/ws", "headers": {"host": "rAyAn-cOnFiG-uk-1.pArSa.dPdNs.oRg"}}}
-- {"name": "美国_161", "type": "vless", "server": "transferwise.com", "port": 443, "uuid": "979b6822-d65a-400d-89f8-30391903ac20",
-  "tls": true, "servername": "rAyAn-cOnFiG-uk-1.pArSa.dPdNs.oRg", "network": "ws",
-  "skip-cert-verify": false, "ws-opts": {"path": "/ws", "headers": {"host": "rAyAn-cOnFiG-uk-1.pArSa.dPdNs.oRg"}}}
-- {"name": "美国_162", "type": "vless", "server": "bbbbbb.taiwan2028.indevs.in", "port": 
-    443, "uuid": "5cccb4da-8aee-4b01-be84-2056265e52dc", "tls": true, "servername": "bBBbBB.taiWan2028.indeVs.iN",
-  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/s2VHv9VUVzg35A6ueyyZnWd",
-    "headers": {"host": "BBBbBb.tAIWAn2028.iNDevS.IN"}}}
-- {"name": "美国_163", "type": "vless", "server": "173.245.59.121", "port": 443, "uuid": "979b6822-d65a-400d-89f8-30391903ac20",
-  "tls": true, "servername": "rAyAn-cOnFiG-uk-1.pAriSa.dPdNs.oRg", "network": "ws",
-  "skip-cert-verify": false, "ws-opts": {"path": "/ws", "headers": {"host": "rAyAn-cOnFiG-uk-1.pAriSa.dPdNs.oRg"}}}
-- {"name": "Nofound_164", "type": "vless", "server": "198.41.199.83", "port": 
-    443, "uuid": "8388434b-bbc8-4e00-b497-69a7f56f6e24", "tls": true, "servername": "rAyAn-cOnFiG-it-1.pAriSa.dPdNs.oRg",
-  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/ws", "headers": {
-      "host": "rAyAn-cOnFiG-it-1.pAriSa.dPdNs.oRg"}}}
-- {"name": "Nofound_165", "type": "vless", "server": "141.101.123.40", "port": 
-    443, "uuid": "8388434b-bbc8-4e00-b497-69a7f56f6e24", "tls": true, "servername": "rAyAn-cOnFiG-it-1.pAriSa.dPdNs.oRg",
-  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/ws", "headers": {
-      "host": "rAyAn-cOnFiG-it-1.pAriSa.dPdNs.oRg"}}}
-- {"name": "美国_166", "type": "vless", "server": "104.18.32.47", "port": 80, "uuid": "1e35b4bf-b270-4c0b-918d-62746eedd2ad",
-  "tls": false, "network": "ws", "ws-opts": {"path": "/?ed", "headers": {"host": "EveRLaSTinG-fiNANcE439p1sxXHY.SPORtLAND.CompanY."}}}
-- {"name": "美国_167", "type": "vmess", "server": "154.83.2.156", "port": 2086, "uuid": "92373ed1-78a8-4cbe-aa06-54af1edd0471",
-  "tls": false, "network": "ws", "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/",
-    "headers": {"host": "v205.19740822.xyz"}}}
-- {"name": "中国台湾_168", "type": "trojan", "server": "green2.cdntencentmusic.com", "port": 
-    31103, "password": "e57f3d5b-d708-4997-aee2-d7c05ba0ff3e", "sni": "green2.cdntencentmusic.com",
-  "udp": true, "skip-cert-verify": true}
-- {"name": "美国_169", "type": "trojan", "server": "bbbnmkl.taiwan2028.indevs.in", "port": 
-    443, "password": "5cccb4da-8aee-4b01-be84-2056265e52dc", "sni": "bBbNmKl.TAIwAn2028.IndEvs.In",
-  "udp": true, "skip-cert-verify": false}
-- {"name": "中国台湾_170", "type": "trojan", "server": "green2.cdntencentmusic.com", "port": 
-    35502, "password": "a7b4444c-6033-45fe-bdee-8e8fe64a419d", "sni": "green2.cdntencentmusic.com",
-  "udp": true, "skip-cert-verify": true}
-- {"name": "美国_171", "type": "vless", "server": "104.21.70.50", "port": 443, "uuid": "0c6b96bc-5e3a-4500-8497-6dead1965609",
+- {"name": "美国_31", "type": "vless", "server": "creativecommons.org", "port": 
+    443, "uuid": "d89d6641-3b1a-4f51-a194-9c9109fd21b6", "tls": true, "servername": "DiprOX.pages.DEV",
+  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/assets", "headers": {
+      "host": "diprox.pages.dev"}}}
+- {"name": "美国_32", "type": "vless", "server": "72.167.241.238", "port": 2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.jpmj.dev", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.jpmj.dev"}}}
+- {"name": "美国_33", "type": "vless", "server": "104.21.70.50", "port": 443, "uuid": "0c6b96bc-5e3a-4500-8497-6dead1965609",
   "tls": true, "servername": "42214edb-ec81-4091-bfa7-c4ced68ee019.661.qzz.io", "network": "ws",
   "skip-cert-verify": false, "ws-opts": {"path": "/QMV9N8sI6UlesbbZ1wwDhJ3", "headers": {
       "host": "42214edb-ec81-4091-bfa7-c4ced68ee019.661.qzz.io"}}}
-- {"name": "中国台湾_172", "type": "trojan", "server": "green2.cdntencentmusic.com", "port": 
-    35502, "password": "42bf0597-7ac9-4842-a0d9-c6bb39ef3f94", "sni": "green2.cdntencentmusic.com",
+- {"name": "美国_34", "type": "vless", "server": "50.62.198.138", "port": 2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "中国香港_35", "type": "trojan", "server": "219.76.135.98", "port": 443, "password": "BxceQaOe",
   "udp": true, "skip-cert-verify": true}
-- {"name": "中国香港_173", "type": "trojan", "server": "58.152.53.45", "port": 443, "password": "BxceQaOe",
-  "udp": true, "skip-cert-verify": true}
-- {"name": "法国_174", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
+- {"name": "美国_36", "type": "vmess", "server": "6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io",
+  "port": 443, "uuid": "0c6b96bc-5e3a-4500-8497-6dead1965609", "tls": true, "servername": "6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io",
+  "network": "ws", "skip-cert-verify": false, "alterId": 0, "cipher": "auto", "ws-opts": {
+    "path": "/KHtPvNZl371C8NsbbZ1wwDhJ3", "headers": {"host": "6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io"}}}
+- {"name": "伊朗_37", "type": "vless", "server": "217.60.37.196", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_38", "type": "vless", "server": "152.53.131.209", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_39", "type": "vless", "server": "152.53.141.9", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "Nofound_40", "type": "vless", "server": "94.247.142.238", "port": 
+    2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d", "tls": true, "servername": "sni.jpmj.dev",
+  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2",
+    "headers": {"host": "sni.jpmj.dev"}}}
+- {"name": "德国_41", "type": "vless", "server": "52.59.201.146", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_42", "type": "trojan", "server": "60a22220-8a8f-46e7-82ba-76d42df68c34.661.qzz.io",
+  "port": 443, "password": "0c6b96bc-5e3a-4500-8497-6dead1965609", "sni": "60a22220-8A8f-46e7-82bA-76D42Df68c34.661.qZZ.Io",
+  "udp": true, "skip-cert-verify": false}
+- {"name": "乌克兰_43", "type": "vless", "server": "46.203.233.242", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "德国_44", "type": "vless", "server": "138.197.191.77", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "法国_45", "type": "vless", "server": "185.7.240.238", "port": 2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.jpmj.dev", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.jpmj.dev"}}}
+- {"name": "美国_46", "type": "vless", "server": "139.144.77.58", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_47", "type": "vless", "server": "44.244.220.166", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_48", "type": "vless", "server": "167.68.42.238", "port": 2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.jpmj.dev", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.jpmj.dev"}}}
+- {"name": "德国_49", "type": "vless", "server": "46.101.185.122", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_50", "type": "vless", "server": "162.19.254.52", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "德国_51", "type": "vless", "server": "18.153.254.136", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "比利时_52", "type": "vless", "server": "57.129.137.82", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_53", "type": "vless", "server": "44.228.63.60", "port": 80, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "Nofound_54", "type": "trojan", "server": "162.159.152.4", "port": 
+    8443, "password": "T9BpZIVMNv", "sni": "sweden.vmaxpanel.com", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "Nofound_55", "type": "vless", "server": "162.159.3.46", "port": 443, "uuid": "4c642cae-1a6d-4e51-a1c3-fa5892437aa3",
+  "tls": true, "servername": "5465765525.ccfly.tech", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2048", "headers": {"host": "5465765525.ccfly.tech"}}}
+- {"name": "美国_56", "type": "trojan", "server": "6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io",
+  "port": 443, "password": "0c6b96bc-5e3a-4500-8497-6dead1965609", "sni": "6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io",
+  "udp": true, "skip-cert-verify": false}
+- {"name": "Nofound_57", "type": "vmess", "server": "160.191.245.48", "port": 
+    58623, "uuid": "8d74803e-aa74-47ef-e3ae-23eeaa96f89d", "tls": false, "network": "tcp",
+  "alterId": 0, "cipher": "auto"}
+- {"name": "法国_58", "type": "vless", "server": "51.75.64.246", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "比利时_59", "type": "vless", "server": "57.128.179.111", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "比利时_60", "type": "vless", "server": "57.129.47.11", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_61", "type": "vmess", "server": "6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io",
+  "port": 443, "uuid": "0c6b96bc-5e3a-4500-8497-6dead1965609", "tls": true, "network": "ws",
+  "skip-cert-verify": false, "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/KHtPvNZl371C8NsbbZ1wwDhJ3",
+    "headers": {"host": "6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io"}}}
+- {"name": "法国_62", "type": "vless", "server": "51.91.251.31", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "立陶宛_63", "type": "vless", "server": "45.82.161.175", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "荷兰_64", "type": "vless", "server": "94.23.147.217", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_65", "type": "vless", "server": "152.228.216.146", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "比利时_66", "type": "vless", "server": "57.128.178.42", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "乌克兰_67", "type": "vless", "server": "82.117.245.125", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_68", "type": "trojan", "server": "v3.dabache.top", "port": 8443, "password": "T9BpZIVMNv",
+  "sni": "sweden.vmaxpanel.com", "udp": true, "skip-cert-verify": true}
+- {"name": "美国_69", "type": "vless", "server": "94.131.9.202", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "法国_70", "type": "vless", "server": "146.59.230.8", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "俄罗斯_71", "type": "vless", "server": "93.185.156.138", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "伊朗_72", "type": "vless", "server": "91.107.255.196", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "英国_73", "type": "vless", "server": "217.154.225.199", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "德国_74", "type": "vless", "server": "141.94.222.214", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_75", "type": "vless", "server": "139.144.77.235", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "伊朗_76", "type": "vless", "server": "217.60.36.183", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "伊朗_77", "type": "vless", "server": "91.99.159.214", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "德国_78", "type": "vless", "server": "89.58.26.175", "port": 2083, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "伊朗_79", "type": "vless", "server": "188.245.108.104", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "比利时_80", "type": "vless", "server": "57.129.137.75", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "德国_81", "type": "vless", "server": "87.106.141.152", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_82", "type": "trojan", "server": "vip1.kaixincloud.top", "port": 
+    8443, "password": "T9BpZIVMNv", "sni": "sweden.vmaxpanel.com", "udp": true, "skip-cert-verify": 
+    true}
+- {"name": "法国_83", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
     44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
-  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1",
-    "headers": {"host": "TURK1.NET.NET"}}}
-- {"name": "法国_175", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN",
+    "headers": {"host": "2001:bc8:32d7:302::10"}}}
+- {"name": "英国_84", "type": "vless", "server": "89.19.44.24", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "伊朗_85", "type": "vless", "server": "188.245.230.218", "port": 7788, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "伊朗_86", "type": "vless", "server": "91.107.182.33", "port": 2083, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_87", "type": "vless", "server": "162.19.243.106", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "伊朗_88", "type": "vless", "server": "91.107.203.137", "port": 990, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "法国_89", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?ed=2048", "headers": {"host": "2001:bc8:32d7:302::10"}}}
+- {"name": "罗马尼亚_90", "type": "vless", "server": "188.241.241.33", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "法国_91", "type": "vless", "server": "54.37.74.239", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_92", "type": "vless", "server": "162.19.243.46", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "德国_93", "type": "vless", "server": "5.75.198.50", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "比利时_94", "type": "vless", "server": "57.129.63.60", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "法国_95", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "?ed=2048", "headers": {"host": "2001:bc8:32d7:302::10"}}}
+- {"name": "英国_96", "type": "vless", "server": "82.153.50.30", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_97", "type": "vless", "server": "162.19.246.248", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "德国_98", "type": "vless", "server": "88.198.82.151", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "法国_99", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?ed=2048", "headers": {"host": "2001:bc8:32d7:302::10"}}}
+- {"name": "法国_100", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/", "headers": {"host": "2001:bc8:32d7:302::10"}}}
+- {"name": "德国_101", "type": "vless", "server": "162.55.187.121", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "比利时_102", "type": "vless", "server": "57.129.5.108", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "伊朗_103", "type": "vless", "server": "91.107.148.154", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_104", "type": "vless", "server": "162.19.243.8", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "俄罗斯_105", "type": "vless", "server": "193.37.70.3", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "西班牙_106", "type": "trojan", "server": "109.234.211.66", "port": 2087,
+  "password": "trojan", "sni": "store.timimi.dpdns.org", "udp": true, "skip-cert-verify": 
+    false}
+- {"name": "乌克兰_107", "type": "vless", "server": "82.117.245.53", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "德国_108", "type": "vless", "server": "89.58.43.93", "port": 2006, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_109", "type": "vless", "server": "162.19.243.173", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "比利时_110", "type": "vless", "server": "57.129.63.145", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "法国_111", "type": "vmess", "server": "2001:bc8:32d7:302::17", "port": 
     44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
   "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1",
     "headers": {"host": "AZERB.NET"}}}
-- {"name": "法国_176", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
+- {"name": "德国_112", "type": "vless", "server": "88.198.82.158", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "法国_113", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1",
+    "headers": {"host": "2001:bc8:32d7:302::10"}}}
+- {"name": "法国_114", "type": "vless", "server": "51.75.70.204", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "德国_115", "type": "vless", "server": "116.203.58.165", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "法国_116", "type": "vless", "server": "54.37.73.185", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "法国_117", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1",
+    "headers": {"host": "TURK1.NET.NET"}}}
+- {"name": "罗马尼亚_118", "type": "vless", "server": "188.241.241.20", "port": 2053,
+  "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d", "tls": true, "servername": "sni.111000.indevs.in",
+  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2",
+    "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "罗马尼亚_119", "type": "vless", "server": "195.206.242.74", "port": 2053,
+  "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d", "tls": true, "servername": "sni.111000.indevs.in",
+  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2",
+    "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "德国_120", "type": "vless", "server": "213.202.218.198", "port": 2083, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_121", "type": "vless", "server": "162.19.246.187", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "比利时_122", "type": "vless", "server": "57.129.47.58", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "法国_123", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
     44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
   "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10",
     "headers": {"host": "2001:bc8:32d7:302::10"}}}
-- {"name": "中国台湾_177", "type": "trojan", "server": "green2.cdntencentmusic.com", "port": 
-    35501, "password": "63dbd122-6932-43ea-9c0e-06ed91f0d3d3", "sni": "green2.cdntencentmusic.com",
-  "udp": true, "skip-cert-verify": true}
-- {"name": "中国香港_178", "type": "trojan", "server": "219.76.135.98", "port": 443, "password": "BxceQaOe",
-  "udp": true, "skip-cert-verify": true}
-- {"name": "中国香港_179", "type": "trojan", "server": "219.76.135.98", "port": 443, "password": "BxceQaOe",
-  "udp": true, "skip-cert-verify": true}
-- {"name": "中国香港_180", "type": "trojan", "server": "219.76.135.98", "port": 443, "password": "BxceQaOe",
-  "udp": true, "skip-cert-verify": true}
-- {"name": "中国台湾_181", "type": "trojan", "server": "green2.cdntencentmusic.com", "port": 
-    31102, "password": "d6abc27f-427b-41b5-b53b-6660fbdc3dae", "sni": "green2.cdntencentmusic.com",
-  "udp": true, "skip-cert-verify": true}
-- {"name": "美国_182", "type": "vless", "server": "adf.ly", "port": 443, "uuid": "1679af35-6dd6-4c09-ae3b-18f239217f3e",
-  "tls": true, "servername": "rAyAn-007.pArViN.DpDnS.OrG", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/?ed=2560", "headers": {"host": "rayan-007.parvin.dpdns.org"}}}
-- {"name": "美国_183", "type": "vless", "server": "s1.db-link.in", "port": 443, "uuid": "873a8e21-5fed-36a7-b251-734ebc97381c",
-  "tls": true, "servername": "dabaif0.webn.cc", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/db10248a03e8db1b", "headers": {"host": "dabaif0.webn.cc"}}}
-- {"name": "中国台湾_184", "type": "trojan", "server": "green2.cdntencentmusic.com", "port": 
-    31102, "password": "63dbd122-6932-43ea-9c0e-06ed91f0d3d3", "sni": "green2.cdntencentmusic.com",
-  "udp": true, "skip-cert-verify": true}
-- {"name": "美国_185", "type": "vless", "server": "104.16.158.162", "port": 80, "uuid": "a7444b2b-20fb-461f-9840-63e5c8c7d883",
-  "tls": false, "network": "ws", "ws-opts": {"path": "/?ed=2048", "headers": {"host": "mute-violet-c674.poviy66273.workers.dev"}}}
-- {"name": "美国_186", "type": "vless", "server": "s1.db-link.in", "port": 443, "uuid": "53cddd30-34a1-32dd-b598-c1c4c8a0f813",
-  "tls": true, "servername": "dabaihk.webn.cc", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/db1024a105975707", "headers": {"host": "dabaihk.webn.cc"}}}
-- {"name": "美国_187", "type": "vmess", "server": "BBBbBb.tAiWAn2028.IndEvs.In", "port": 
-    443, "uuid": "5cccb4da-8aee-4b01-be84-2056265e52dc", "tls": true, "servername": "BbbbBb.tAiwaN2028.InDeVs.iN",
+- {"name": "美国_124", "type": "trojan", "server": "eett.taiwan2026.indevs.in", "port": 
+    443, "password": "fc3704d6-8e5e-443a-bd5b-20ec7cfbe990", "sni": "eett.taiwan2026.indevs.in",
+  "udp": true, "skip-cert-verify": false}
+- {"name": "伊朗_125", "type": "vless", "server": "91.107.251.113", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_126", "type": "vless", "server": "nnmjkio.taipei101.indevs.in", "port": 
+    443, "uuid": "98b419ef-83a2-4d1b-a23d-566b7f24477b", "tls": true, "servername": "NnMjkIO.TaipEi101.INdEVS.IN",
+  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/FHqOdFbetLpTGA5AqzZ2Mj",
+    "headers": {"host": "NnMJKIo.TAIpEi101.INdEVS.In"}}}
+- {"name": "英国_127", "type": "vless", "server": "45.12.31.138", "port": 2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "英国_128", "type": "vless", "server": "51.195.118.15", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "韩国_129", "type": "vless", "server": "121.159.68.210", "port": 12088, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.jpmj.dev", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.jpmj.dev"}}}
+- {"name": "比利时_130", "type": "vless", "server": "57.129.47.14", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "伊朗_131", "type": "vless", "server": "91.107.165.89", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "伊朗_132", "type": "vless", "server": "91.107.160.25", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "俄罗斯_133", "type": "vless", "server": "95.181.161.158", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "伊朗_134", "type": "vless", "server": "91.107.147.191", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "德国_135", "type": "vless", "server": "94.130.132.180", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_136", "type": "vless", "server": "138.2.232.156", "port": 28163, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "英国_137", "type": "vless", "server": "77.239.104.174", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "罗马尼亚_138", "type": "vless", "server": "188.241.241.32", "port": 2053,
+  "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d", "tls": true, "servername": "sni.111000.indevs.in",
+  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2",
+    "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "英国_139", "type": "vless", "server": "5.39.249.10", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "俄罗斯_140", "type": "vless", "server": "212.193.4.209", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "伊朗_141", "type": "vless", "server": "91.107.157.253", "port": 33894, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "英国_142", "type": "vless", "server": "77.239.104.36", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_143", "type": "trojan", "server": "mkouy.99890604.xyz", "port": 
+    443, "password": "5196aae7-1479-4f3c-978b-68e74977b509", "sni": "mkouy.99890604.xyz",
+  "udp": true, "skip-cert-verify": false}
+- {"name": "伊朗_144", "type": "vless", "server": "91.107.142.138", "port": 8080, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "俄罗斯_145", "type": "vless", "server": "89.169.13.207", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "德国_146", "type": "vless", "server": "185.218.137.83", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "意大利_147", "type": "vless", "server": "45.149.235.119", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "意大利_148", "type": "vless", "server": "92.42.96.223", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_149", "type": "vless", "server": "47.80.11.87", "port": 443, "uuid": "3e7f67de-648e-4871-b51a-a225214d41ee",
+  "tls": false, "servername": "api.company-target.com", "network": "tcp", "skip-cert-verify": 
+    false}
+- {"name": "伊朗_150", "type": "vless", "server": "91.107.145.203", "port": 37607, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_151", "type": "vmess", "server": "ffffv.2030.pp.ua", "port": 443, "uuid": "fc3704d6-8e5e-443a-bd5b-20ec7cfbe990",
+  "tls": true, "servername": "ffffv.2030.pp.ua", "network": "ws", "skip-cert-verify": 
+    false, "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/eszjp4nTT8TxDHFepMpfNkCk8",
+    "headers": {"host": "ffffv.2030.pp.ua"}}}
+- {"name": "美国_152", "type": "vless", "server": "47.80.12.87", "port": 443, "uuid": "3e7f67de-648e-4871-b51a-a225214d41ee",
+  "tls": false, "servername": "api.company-target.com", "network": "tcp", "skip-cert-verify": 
+    false}
+- {"name": "美国_153", "type": "vless", "server": "nnmjkio.taipei101.indevs.in", "port": 
+    443, "uuid": "98b419ef-83a2-4d1b-a23d-566b7f24477b", "tls": true, "servername": "NnMjkIO.TaipEi101.INdEVS.IN",
+  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/FHqOdFbetLpTGA5AqzZ2Mj",
+    "headers": {"host": "NnMJKIo.TAIpEi101.INdEVS.In"}}}
+- {"name": "俄罗斯_154", "type": "vless", "server": "109.120.179.99", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "德国_155", "type": "vless", "server": "159.69.185.118", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "俄罗斯_156", "type": "vless", "server": "91.196.34.28", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_157", "type": "vless", "server": "ffvbg.7777125.xyz", "port": 443,
+  "uuid": "fc3704d6-8e5e-443a-bd5b-20ec7cfbe990", "tls": true, "servername": "ffvbg.7777125.xyz",
+  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/D5oXRDxFepMpfNkCk8",
+    "headers": {"host": "ffvbg.7777125.xyz"}}}
+- {"name": "美国_158", "type": "vless", "server": "216.238.92.231", "port": 443, "uuid": "4c642cae-1a6d-4e51-a1c3-fa5892437aa3",
+  "tls": true, "servername": "5465765525.ccfly.tech", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2048", "headers": {"host": "5465765525.ccfly.tech"}}}
+- {"name": "德国_159", "type": "vless", "server": "88.99.60.34", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "俄罗斯_160", "type": "vless", "server": "45.153.230.220", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_161", "type": "vless", "server": "141.148.153.223", "port": 36818,
+  "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d", "tls": true, "servername": "sni.111000.indevs.in",
+  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2",
+    "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "保加利亚_162", "type": "vless", "server": "194.9.6.32", "port": 48484, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "德国_163", "type": "vless", "server": "185.66.165.51", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "俄罗斯_164", "type": "vless", "server": "81.200.154.2", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "俄罗斯_165", "type": "vless", "server": "185.104.112.163", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "德国_166", "type": "vless", "server": "5.187.6.94", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_167", "type": "vmess", "server": "jjjk.191268.xyz", "port": 443, "uuid": "5cccb4da-8aee-4b01-be84-2056265e52dc",
+  "tls": true, "servername": "jjjk.191268.xyz", "network": "ws", "skip-cert-verify": 
+    false, "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/AwUJyGh9Ym6vVzg35A6ueyyZnWd",
+    "headers": {"host": "jjjk.191268.xyz"}}}
+- {"name": "美国_168", "type": "vless", "server": "kkko.iran1912.dpdns.org", "port": 
+    443, "uuid": "4a7baca1-8048-4a91-8316-595b36657a54", "tls": true, "servername": "kkkO.IrAn1912.dPdNs.org",
+  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/v4mECBsrKh5tvsvinsGGg",
+    "headers": {"host": "KkKo.irAN1912.DpdnS.OrG"}}}
+- {"name": "美国_169", "type": "vmess", "server": "172.67.219.254", "port": 443, "uuid": "0c6b96bc-5e3a-4500-8497-6dead1965609",
+  "tls": true, "servername": "42214edb-ec81-4091-bfa7-c4ced68ee019.661.qzz.io", "network": "ws",
+  "skip-cert-verify": false, "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/KHtPvNZl371C8NsbbZ1wwDhJ3",
+    "headers": {"host": "42214edb-ec81-4091-bfa7-c4ced68ee019.661.qzz.io"}}}
+- {"name": "美国_170", "type": "vless", "server": "192.9.157.150", "port": 57783, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "俄罗斯_171", "type": "vless", "server": "80.66.85.115", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_172", "type": "vmess", "server": "bbbnmkl.2030.pp.ua", "port": 
+    443, "uuid": "5cccb4da-8aee-4b01-be84-2056265e52dc", "tls": true, "servername": "bbbnmkl.2030.pp.ua",
   "network": "ws", "skip-cert-verify": false, "alterId": 0, "cipher": "auto", "ws-opts": {
-    "path": "/AwUJyGh9Ym6vVzg35A6ueyyZnWd", "headers": {"host": "BbBbBB.taIwAN2028.InDeVs.iN"}}}
-- {"name": "美国_188", "type": "vless", "server": "173.245.59.121", "port": 443, "uuid": "979b6822-d65a-400d-89f8-30391903ac20",
-  "tls": true, "servername": "rAyAn-cOnFiG-uk-1.pAriSa.dPdNs.oRg", "network": "ws",
-  "skip-cert-verify": false, "ws-opts": {"path": "/ws", "headers": {"host": "rAyAn-cOnFiG-uk-1.pAriSa.dPdNs.oRg"}}}
-- {"name": "美国_189", "type": "vmess", "server": "vvbnhju.191292.xyz", "port": 
+    "path": "/AwUJyGh9Ym6vVzg35A6ueyyZnWd", "headers": {"host": "bbbnmkl.2030.pp.ua"}}}
+- {"name": "南非_173", "type": "vless", "server": "169.239.129.25", "port": 54468, "uuid": "4c642cae-1a6d-4e51-a1c3-fa5892437aa3",
+  "tls": true, "servername": "5465765525.ccfly.tech", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2048", "headers": {"host": "5465765525.ccfly.tech"}}}
+- {"name": "意大利_174", "type": "vless", "server": "185.221.198.107", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_175", "type": "vmess", "server": "tttyu.2030.pp.ua", "port": 443, "uuid": "fc3704d6-8e5e-443a-bd5b-20ec7cfbe990",
+  "tls": true, "servername": "tttyu.2030.pp.ua", "network": "ws", "skip-cert-verify": 
+    false, "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/eszjp4nTT8TxDHFepMpfNkCk8",
+    "headers": {"host": "tttyu.2030.pp.ua"}}}
+- {"name": "美国_176", "type": "vless", "server": "vvvbghy.99890604.xyz", "port": 
+    443, "uuid": "5196aae7-1479-4f3c-978b-68e74977b509", "tls": true, "servername": "vvvbghy.99890604.xyz",
+  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/vzwyBIUYH4vYIKMBivnR3",
+    "headers": {"host": "vvvbghy.99890604.xyz"}}}
+- {"name": "英国_177", "type": "vless", "server": "217.154.213.217", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "俄罗斯_178", "type": "vless", "server": "nl-78w-c.southnetworks.cloud", "port": 
+    80, "uuid": "094e66a9-8d92-41fe-85ad-8e7bf9b5fcaa", "tls": false, "network": "ws",
+  "ws-opts": {"path": "/getWorkerUpdates", "headers": {"host": "nl-78w-c.southnetworks.cloud"}}}
+- {"name": "俄罗斯_179", "type": "vless", "server": "78.153.139.68", "port": 8443, "uuid": "fd8972d7-cf5e-11f0-9970-45e1d80c4039",
+  "tls": false, "servername": "images.apple.com", "network": "tcp", "skip-cert-verify": 
+    false}
+- {"name": "德国_180", "type": "vless", "server": "132.145.232.171", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "俄罗斯_181", "type": "vless", "server": "78.153.139.68", "port": 8443, "uuid": "fd8972d7-cf5e-11f0-9970-45e1d80c4039",
+  "tls": false, "servername": "images.apple.com", "network": "tcp", "skip-cert-verify": 
+    false}
+- {"name": "美国_182", "type": "vless", "server": "52.171.134.116", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_183", "type": "vless", "server": "ttghju.huangshang.site", "port": 
+    443, "uuid": "5196aae7-1479-4f3c-978b-68e74977b509", "tls": true, "servername": "ttghju.huangshang.site",
+  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/vzwyBIUYH4vYIKMBivnR3",
+    "headers": {"host": "ttghju.huangshang.site"}}}
+- {"name": "美国_184", "type": "vless", "server": "nodejs.org", "port": 80, "uuid": "3775d133-dc3a-4a02-8095-5c70c328ae9f",
+  "tls": false, "network": "ws", "ws-opts": {"path": "/?ed", "headers": {"host": "HUge-ActOR48bf36fHJV.ecOTouriSS.co.uK."}}}
+- {"name": "美国_185", "type": "vless", "server": "6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io",
+  "port": 443, "uuid": "0c6b96bc-5e3a-4500-8497-6dead1965609", "tls": true, "servername": "6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io",
+  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/QMV9N8sI6UlesbbZ1wwDhJ3",
+    "headers": {"host": "6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io"}}}
+- {"name": "美国_186", "type": "vmess", "server": "mmKk.wWW890604.dpdns.OrG", "port": 
+    80, "uuid": "5cccb4da-8aee-4b01-be84-2056265e52dc", "tls": false, "servername": "MmKk.wwW890604.DpDns.ORG",
+  "network": "ws", "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/AwUJyGh9Ym6vVzg35A6ueyyZnWd",
+    "headers": {"host": "mmKk.wWW890604.DPdNS.OrG"}}}
+- {"name": "澳大利亚_187", "type": "vless", "server": "91.108.243.40", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "Nofound_188", "type": "vless", "server": "45.85.119.238", "port": 
+    2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d", "tls": true, "servername": "sni.jpmj.dev",
+  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2",
+    "headers": {"host": "sni.jpmj.dev"}}}
+- {"name": "美国_189", "type": "vless", "server": "nodejs.org", "port": 80, "uuid": "6abc2840-25fd-4dd7-b1aa-0892fe98f2d9",
+  "tls": false, "network": "ws", "ws-opts": {"path": "/?ed", "headers": {"host": "MySterIOUS-chECk94Bl5oXQ6C.eCoTOUriSs.cO.uK."}}}
+- {"name": "俄罗斯_190", "type": "vless", "server": "62.133.62.253", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_191", "type": "trojan", "server": "ooiuyt.890699.xyz", "port": 
+    443, "password": "98b419ef-83a2-4d1b-a23d-566b7f24477b", "sni": "OOIuyT.890699.xYZ",
+  "udp": true, "skip-cert-verify": false}
+- {"name": "美国_192", "type": "vmess", "server": "vVVbNHj.191288.xYz", "port": 80,
+  "uuid": "5cccb4da-8aee-4b01-be84-2056265e52dc", "tls": false, "servername": "vvvbNHJ.191288.XYZ",
+  "network": "ws", "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/AwUJyGh9Ym6vVzg35A6ueyyZnWd",
+    "headers": {"host": "VvVBnHj.191288.XYZ"}}}
+- {"name": "美国_193", "type": "vmess", "server": "rrrgt.2030.pp.ua", "port": 80, "uuid": "fc3704d6-8e5e-443a-bd5b-20ec7cfbe990",
+  "tls": false, "servername": "rrrgt.2030.pp.ua", "network": "ws", "alterId": 0, "cipher": "auto",
+  "ws-opts": {"path": "/eszjp4nTT8TxDHFepMpfNkCk8", "headers": {"host": "rrrgt.2030.pp.ua"}}}
+- {"name": "美国_194", "type": "vmess", "server": "rrrrrrt.7777125.xyz", "port": 
+    443, "uuid": "fc3704d6-8e5e-443a-bd5b-20ec7cfbe990", "tls": true, "servername": "rrrrrrt.7777125.xyz",
+  "network": "ws", "skip-cert-verify": false, "alterId": 0, "cipher": "auto", "ws-opts": {
+    "path": "/eszjp4nTT8TxDHFepMpfNkCk8", "headers": {"host": "rrrrrrt.7777125.xyz"}}}
+- {"name": "英国_195", "type": "vless", "server": "194.164.192.16", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "德国_196", "type": "vless", "server": "95.179.168.188", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "法国_197", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/", "headers": {"host": "AZERB.NET"}}}
+- {"name": "美国_198", "type": "vless", "server": "5.44.47.60", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_199", "type": "trojan", "server": "yyyyu.taiwan2026.indevs.in", "port": 
+    443, "password": "fc3704d6-8e5e-443a-bd5b-20ec7cfbe990", "sni": "yyyyu.taiwan2026.indevs.in",
+  "udp": true, "skip-cert-verify": false}
+- {"name": "德国_200", "type": "vless", "server": "secdn18.suio.me", "port": 443, "uuid": "a7a9f670-44c0-45a9-8047-69db0203c142",
+  "tls": true, "servername": "secdn18.suio.me", "network": "tcp", "skip-cert-verify": 
+    false}
+- {"name": "美国_201", "type": "vmess", "server": "gf.usa2030.indevs.in", "port": 
+    80, "uuid": "5196aae7-1479-4f3c-978b-68e74977b509", "tls": false, "servername": "gf.usa2030.indevs.in",
+  "network": "ws", "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/kl01iHu1vgbJmQ5IKMBivnR3",
+    "headers": {"host": "gf.usa2030.indevs.in"}}}
+- {"name": "美国_202", "type": "vmess", "server": "vvbnhju.191292.xyz", "port": 
     443, "uuid": "b9bb332d-5e0d-41af-adac-49362dde8661", "tls": true, "servername": "vvbnhju.191292.xyz",
   "network": "ws", "skip-cert-verify": false, "alterId": 0, "cipher": "auto", "ws-opts": {
     "path": "/iqjxVCqiIAaLCt5Q2GkKGWRMg", "headers": {"host": "vvbnhju.191292.xyz"}}}
-- {"name": "美国_190", "type": "trojan", "server": "205.185.115.223", "port": 
-    19258, "password": "iWnFtzMiac", "sni": "cloudflare.com", "udp": true, "skip-cert-verify": 
-    false}
-- {"name": "中国台湾_191", "type": "trojan", "server": "green2.cdntencentmusic.com", "port": 
-    31103, "password": "0e1a4026-89b4-4f9c-b7c4-8fb2933c30db", "sni": "green2.cdntencentmusic.com",
-  "udp": true, "skip-cert-verify": true}
-- {"name": "美国_192", "type": "vless", "server": "104.18.32.47", "port": 80, "uuid": "1e35b4bf-b270-4c0b-918d-62746eedd2ad",
-  "tls": false, "network": "ws", "ws-opts": {"path": "/?ed", "headers": {"host": "everlasting-finance439p1sxxhy.sportland.company."}}}
-- {"name": "美国_193", "type": "vless", "server": "104.18.32.47", "port": 80, "uuid": "0b241646-64d0-4837-a4b1-28dd97e59089",
-  "tls": false, "network": "ws", "ws-opts": {"path": "/?ed", "headers": {"host": "GLORiOUS-MouNtaiNk9cZ8WOv4a.EcotourISs.co.uK."}}}
-- {"name": "美国_194", "type": "vless", "server": "69.84.182.13", "port": 443, "uuid": "e72b54df-3c45-4856-bcf9-bf3e1bf6ff5e",
+- {"name": "美国_203", "type": "vless", "server": "64.235.43.213", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.jpmj.dev", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.jpmj.dev"}}}
+- {"name": "美国_204", "type": "vless", "server": "jjjiu.99890604.xyz", "port": 
+    443, "uuid": "5196aae7-1479-4f3c-978b-68e74977b509", "tls": true, "servername": "jjjiu.99890604.xyz",
+  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/vzwyBIUYH4vYIKMBivnR3",
+    "headers": {"host": "jjjiu.99890604.xyz"}}}
+- {"name": "美国_205", "type": "vless", "server": "38.242.229.125", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "西班牙_206", "type": "vless", "server": "194.76.173.6", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "俄罗斯_207", "type": "vless", "server": "nl-90w-c.southnetworks.cloud", "port": 
+    80, "uuid": "e08f1ad7-0c60-446d-baec-08b3b69bb3d0", "tls": false, "network": "ws",
+  "ws-opts": {"path": "/getWorkerUpdates", "headers": {"host": "nl-90w-c.southnetworks.cloud"}}}
+- {"name": "美国_208", "type": "vless", "server": "198.62.62.127", "port": 443, "uuid": "e6c7ed63-89db-4ae1-a3f8-7a722921b3b2",
+  "tls": true, "servername": "apii.onlineshoppingez.ir", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/O1w0n3vYgFKYs7EzNAvLPvOp", "headers": {"host": "apii.onlineshoppingez.ir"}}}
+- {"name": "乌克兰_209", "type": "vless", "server": "82.117.245.209", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_210", "type": "vless", "server": "fuck1.tawanaproxy.online", "port": 
+    80, "uuid": "c33275fd-a4fa-470d-90e4-55da39d849a8", "tls": false, "network": "ws",
+  "ws-opts": {"path": "/", "headers": {"host": "en.tawana.cf.panbehpanel.ir"}}}
+- {"name": "德国_211", "type": "vless", "server": "88.198.82.147", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_212", "type": "vless", "server": "nodejs.org", "port": 2052, "uuid": "f8ae018b-b84d-4c9b-b03b-4642c3a25977",
+  "tls": false, "network": "ws", "ws-opts": {"path": "/?ed", "headers": {"host": "ExEMplAry-MILkytsxQiQYso.sPortlaNd.CoMPANy."}}}
+- {"name": "美国_213", "type": "vmess", "server": "172.67.193.64", "port": 443, "uuid": "0c6b96bc-5e3a-4500-8497-6dead1965609",
+  "tls": true, "servername": "858C-ea07C71F67f1.X19890604.qZz.io", "network": "ws",
+  "skip-cert-verify": false, "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/KHtPvNZl371C8NsbbZ1wwDhJ3",
+    "headers": {"host": "858C-EA07c71F67F1.X19890604.qZZ.IO"}}}
+- {"name": "荷兰_214", "type": "vless", "server": "45.131.5.238", "port": 2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.jpmj.dev", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.jpmj.dev"}}}
+- {"name": "澳大利亚_215", "type": "vless", "server": "46.249.101.56", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_216", "type": "vless", "server": "198.62.62.127", "port": 443, "uuid": "e6c7ed63-89db-4ae1-a3f8-7a722921b3b2",
+  "tls": true, "servername": "apii.onlineshoppingez.ir", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/O1w0n3vYgFKYs7EzNAvLPvOp", "headers": {"host": "apii.onlineshoppingez.ir"}}}
+- {"name": "美国_217", "type": "vless", "server": "104.18.32.47", "port": 80, "uuid": "1e35b4bf-b270-4c0b-918d-62746eedd2ad",
+  "tls": false, "network": "ws", "ws-opts": {"path": "/?ed", "headers": {"host": "EveRLaSTinG-fiNANcE439p1sxXHY.SPORtLAND.CompanY."}}}
+- {"name": "德国_218", "type": "vless", "server": "5.61.41.183", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "巴西_219", "type": "vless", "server": "185.78.76.40", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "伊朗_220", "type": "vless", "server": "91.107.250.40", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "俄罗斯_221", "type": "vless", "server": "193.37.70.98", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_222", "type": "vless", "server": "172.86.73.221", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "德国_223", "type": "vless", "server": "78.46.165.235", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "西班牙_224", "type": "vless", "server": "178.33.161.186", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "俄罗斯_225", "type": "vless", "server": "78.41.109.69", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "英国_226", "type": "vless", "server": "89.19.44.239", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "俄罗斯_227", "type": "vless", "server": "nl-78w-c.southnetworks.cloud", "port": 
+    80, "uuid": "094e66a9-8d92-41fe-85ad-8e7bf9b5fcaa", "tls": false, "servername": "nl-78w-c.southnetworks.cloud",
+  "network": "ws", "ws-opts": {"path": "/getWorkerUpdates", "headers": {"host": "nl-78w-c.southnetworks.cloud"}}}
+- {"name": "法国_228", "type": "vmess", "server": "2001:bc8:32d7:302::16", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1",
+    "headers": {"host": "AZERB.NET"}}}
+- {"name": "塞尔维亚_229", "type": "vless", "server": "1.kkcweb.ir", "port": 2083, "uuid": "c805b05e-339d-40e0-8787-432d97a27345",
+  "tls": true, "servername": "hajfron.amirconfigpaanelllll.com", "network": "ws",
+  "skip-cert-verify": false, "ws-opts": {"path": "/", "headers": {"host": "1.kkcweb.ir"}}}
+- {"name": "法国_230", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/", "headers": {"host": "2001:bc8:32d7:302::10"}}}
+- {"name": "韩国_231", "type": "vless", "server": "152.67.211.114", "port": 58337, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.jpmj.dev", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.jpmj.dev"}}}
+- {"name": "比利时_232", "type": "vless", "server": "57.129.137.218", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_233", "type": "vless", "server": "162.19.243.46", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "德国_234", "type": "vless", "server": "83.143.113.26", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "中国香港_235", "type": "vless", "server": "178.20.209.70", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_236", "type": "vless", "server": "mmkklop.191266.xyz", "port": 80,
+  "uuid": "5cccb4da-8aee-4b01-be84-2056265e52dc", "tls": false, "servername": "mmkKLop.191266.XyZ",
+  "network": "ws", "ws-opts": {"path": "/s2VHv9VUVzg35A6ueyyZnWd", "headers": {"host": "mmkKloP.191266.XyZ"}}}
+- {"name": "加拿大_237", "type": "vless", "server": "142.132.178.99", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "法国_238", "type": "vmess", "server": "2001:bc8:32d7:302::11", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560",
+    "headers": {"host": "TABRIZ.NET"}}}
+- {"name": "比利时_239", "type": "vless", "server": "57.128.183.82", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_240", "type": "vless", "server": "3.79.219.135", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "比利时_241", "type": "vless", "server": "57.129.47.12", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "德国_242", "type": "vless", "server": "185.211.6.152", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "英国_243", "type": "vless", "server": "5.178.110.124", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "德国_244", "type": "vless", "server": "85.10.198.99", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "伊朗_245", "type": "vless", "server": "91.99.9.125", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "法国_246", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10",
+    "headers": {"host": "2001:bc8:32d7:302::10"}}}
+- {"name": "俄罗斯_247", "type": "vless", "server": "87.251.77.76", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "法国_248", "type": "vless", "server": "51.75.77.148", "port": 2053, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_249", "type": "vless", "server": "104.20.1.252", "port": 80, "uuid": "4c97ec3e-3527-48c5-80ff-b715463896ba",
+  "tls": false, "network": "ws", "ws-opts": {"path": "/?ed", "headers": {"host": "kIndhEArTeD-PARkb5Rjo2juEr.sPorTLaNd.COMpAny."}}}
+- {"name": "法国_250", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN",
+    "headers": {"host": "2001:bc8:32d7:302::10"}}}
+- {"name": "法国_251", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN",
+    "headers": {"host": "2001:bc8:32d7:302::10"}}}
+- {"name": "美国_252", "type": "vless", "server": "150.230.214.172", "port": 16957,
+  "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d", "tls": true, "servername": "sni.jpmj.dev",
+  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2",
+    "headers": {"host": "sni.jpmj.dev"}}}
+- {"name": "美国_253", "type": "vless", "server": "45.128.99.24", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "比利时_254", "type": "vless", "server": "57.128.181.82", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "比利时_255", "type": "vless", "server": "57.129.63.149", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_256", "type": "trojan", "server": "104.21.16.217", "port": 8443, "password": "123456",
+  "sni": "Bpbg.AngusweN.TOP", "udp": true, "skip-cert-verify": false}
+- {"name": "美国_257", "type": "vless", "server": "65.49.218.243", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "荷兰_258", "type": "vless", "server": "160.153.137.238", "port": 2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.jpmj.dev", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.jpmj.dev"}}}
+- {"name": "法国_259", "type": "vless", "server": "2001:bc8:32d7:302::13", "port": 
+    34324, "uuid": "26c462ba-a90c-4814-9d7c-a629bc0bdb5c", "tls": false, "servername": "dash.cloudflare.com",
+  "network": "tcp", "skip-cert-verify": false}
+- {"name": "法国_260", "type": "vmess", "server": "2001:bc8:32d7:302::11", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560",
+    "headers": {"host": "Azerb.NET"}}}
+- {"name": "法国_261", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/", "headers": {"host": "2001:bc8:32d7:302::10"}}}
+- {"name": "法国_262", "type": "vmess", "server": "2001:bc8:32d7:302::14", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560",
+    "headers": {"host": "TABRIZ.NET"}}}
+- {"name": "美国_263", "type": "vless", "server": "198.71.191.138", "port": 2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_264", "type": "vless", "server": "166.62.104.238", "port": 2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.jpmj.dev", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.jpmj.dev"}}}
+- {"name": "美国_265", "type": "vless", "server": "104.20.1.252", "port": 80, "uuid": "5eb9b54d-3c4e-4588-97f7-e53fe3e92c90",
+  "tls": false, "network": "ws", "ws-opts": {"path": "/?ed", "headers": {"host": "GLOrioUs-aRriVALHCRtzt96gb.sPORtlANd.cOMPAnY."}}}
+- {"name": "美国_266", "type": "vless", "server": "69.84.182.13", "port": 443, "uuid": "e72b54df-3c45-4856-bcf9-bf3e1bf6ff5e",
   "tls": true, "servername": "fr-1-fr-1.aiopen.sbs", "network": "ws", "skip-cert-verify": 
     false, "ws-opts": {"path": "/kbjc/fr1", "headers": {"host": "fr-1-fr-1.aiopen.sbs"}}}
-- {"name": "美国_195", "type": "vless", "server": "104.18.32.47", "port": 80, "uuid": "a5712440-3cec-4a1b-82e8-767c54acd83a",
-  "tls": false, "network": "ws", "ws-opts": {"path": "/?ed", "headers": {"host": "authENTIC-cABinEtgqc4XfW2ud.spORTLAND.COmPAny."}}}
-- {"name": "新加坡_196", "type": "vless", "server": "8.223.63.150", "port": 443, "uuid": "697f10a9-a849-3fec-7173-a4213b9a6378",
-  "tls": true, "servername": "4efd71de.lfree.ccwu.cc", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/2026", "headers": {"host": "4efd71de.lfree.ccwu.cc"}}}
-- {"name": "中国台湾_197", "type": "vless", "server": "220.130.58.230", "port": 443, "uuid": "697f10a9-a849-3fec-7173-a4213b9a6378",
-  "tls": true, "servername": "4efd71de.lfree.ccwu.cc", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/2026", "headers": {"host": "4efd71de.lfree.ccwu.cc"}}}
-- {"name": "新加坡_198", "type": "vless", "server": "8.222.154.58", "port": 12365, "uuid": "697f10a9-a849-3fec-7173-a4213b9a6378",
-  "tls": true, "servername": "4efd71de.lfree.ccwu.cc", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/2026", "headers": {"host": "4efd71de.lfree.ccwu.cc"}}}
-- {"name": "韩国_199", "type": "vless", "server": "121.180.41.104", "port": 16085, "uuid": "697f10a9-a849-3fec-7173-a4213b9a6378",
-  "tls": true, "servername": "4efd71de.lfree.ccwu.cc", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/2026", "headers": {"host": "4efd71de.lfree.ccwu.cc"}}}
-- {"name": "韩国_200", "type": "vless", "server": "59.31.146.42", "port": 18053, "uuid": "697f10a9-a849-3fec-7173-a4213b9a6378",
-  "tls": true, "servername": "4efd71de.lfree.ccwu.cc", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/2026", "headers": {"host": "4efd71de.lfree.ccwu.cc"}}}
-- {"name": "韩国_201", "type": "vless", "server": "112.186.25.177", "port": 30111, "uuid": "697f10a9-a849-3fec-7173-a4213b9a6378",
-  "tls": true, "servername": "4efd71de.lfree.ccwu.cc", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/2026", "headers": {"host": "4efd71de.lfree.ccwu.cc"}}}
-- {"name": "韩国_202", "type": "vless", "server": "211.228.64.93", "port": 12504, "uuid": "697f10a9-a849-3fec-7173-a4213b9a6378",
-  "tls": true, "servername": "4efd71de.lfree.ccwu.cc", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/2026", "headers": {"host": "4efd71de.lfree.ccwu.cc"}}}
-- {"name": "美国_203", "type": "vless", "server": "saas.sin.fan", "port": 443, "uuid": "697f10a9-a849-3fec-7173-a4213b9a6378",
-  "tls": true, "servername": "4efd71de.lfree.ccwu.cc", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/2026", "headers": {"host": "4efd71de.lfree.ccwu.cc"}}}
-- {"name": "美国_204", "type": "vless", "server": "fra-0001-xr.packet-drop-society.net",
-  "port": 443, "uuid": "ba77276e-9939-4c6c-a73e-90e02b6faf13", "tls": false, "servername": "hls-svod.itunes.apple.com",
-  "network": "tcp", "skip-cert-verify": false}
-- {"name": "韩国_205", "type": "vless", "server": "125.143.197.73", "port": 11288, "uuid": "697f10a9-a849-3fec-7173-a4213b9a6378",
-  "tls": true, "servername": "4efd71de.lfree.ccwu.cc", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/2026", "headers": {"host": "4efd71de.lfree.ccwu.cc"}}}
-- {"name": "美国_206", "type": "vless", "server": "104.17.120.177", "port": 443, "uuid": "2a40064b-0bec-4200-a717-9cd98872d315",
-  "tls": true, "servername": "93cb376a.cfncs.pages.dev", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/?ed=2048", "headers": {"host": "93cb376a.cfncs.pages.dev"}}}
-- {"name": "美国_207", "type": "vless", "server": "cdn.zoom.us", "port": 443, "uuid": "44927ab5-6655-415f-9a12-ed1666f02880",
-  "tls": true, "servername": "afrcloud1.c01.kr", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/43.218.77.16=1443", "headers": {"host": "afrcloud1.c01.kr"}}}
-- {"name": "Nofound_208", "type": "vmess", "server": "dDdCCVFg.922922.SHOP", "port": 
-    80, "uuid": "bce0c7cb-08d1-46a7-b77b-7bff8b46252f", "tls": false, "network": "ws",
-  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/RkUUbqhA9GJZBROjL3Q5vTymr",
-    "headers": {"host": "dDdCCVFg.922922.SHOP"}}}
-- {"name": "美国_209", "type": "vless", "server": "mfa.gov.ua", "port": 443, "uuid": "69809e72-2f26-0c49-0240-e47c654ea264",
-  "tls": true, "servername": "2fe6368c.lfree.ccwu.cc", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/proxyip=sjc.o00o.ooo", "headers": {"host": "2fe6368c.lfree.ccwu.cc"}}}
-- {"name": "日本_210", "type": "vless", "server": "132.145.114.230", "port": 12563,
-  "uuid": "697f10a9-a849-3fec-7173-a4213b9a6378", "tls": true, "servername": "4efd71de.lfree.ccwu.cc",
-  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/2026", "headers": {
-      "host": "4efd71de.lfree.ccwu.cc"}}}
-- {"name": "美国_211", "type": "trojan", "server": "mmkk.www890604.dpdns.org", "port": 
-    443, "password": "5cccb4da-8aee-4b01-be84-2056265e52dc", "sni": "mMKK.WwW890604.DpdNS.OrG",
-  "udp": true, "skip-cert-verify": false}
-- {"name": "中国_212", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    30210, "password": "3c12dc89-13fe-4cfc-8e79-4d300c9ac4f6", "sni": "douyin.com",
-  "udp": true, "skip-cert-verify": true}
-- {"name": "美国_213", "type": "vmess", "server": "MmKK.wwW890604.Dpdns.oRg", "port": 
-    443, "uuid": "5cccb4da-8aee-4b01-be84-2056265e52dc", "tls": true, "servername": "mmKK.wwW890604.dpdNs.Org",
-  "network": "ws", "skip-cert-verify": false, "alterId": 0, "cipher": "auto", "ws-opts": {
-    "path": "/AwUJyGh9Ym6vVzg35A6ueyyZnWd", "headers": {"host": "MmKk.WwW890604.dPdnS.oRg"}}}
-- {"name": "美国_214", "type": "vless", "server": "172.66.128.70", "port": 80, "uuid": "3775d133-dc3a-4a02-8095-5c70c328ae9f",
+- {"name": "法国_267", "type": "vmess", "server": "2001:bc8:32d7:302::10", "port": 
+    44579, "uuid": "8e34e170-13ae-4892-9d20-05962acc9f84", "tls": false, "network": "ws",
+  "alterId": 0, "cipher": "auto", "ws-opts": {"path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560",
+    "headers": {"host": "AZERB.NET"}}}
+- {"name": "美国_268", "type": "vless", "server": "161.145.150.238", "port": 2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.jpmj.dev", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.jpmj.dev"}}}
+- {"name": "英国_269", "type": "vless", "server": "141.11.202.238", "port": 2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.jpmj.dev", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.jpmj.dev"}}}
+- {"name": "德国_270", "type": "vless", "server": "194.195.240.210", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_271", "type": "vless", "server": "192.169.221.138", "port": 2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_272", "type": "vless", "server": "139.144.77.170", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "罗马尼亚_273", "type": "vless", "server": "93.115.175.140", "port": 2053,
+  "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d", "tls": true, "servername": "sni.111000.indevs.in",
+  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2",
+    "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "俄罗斯_274", "type": "vless", "server": "193.37.70.247", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_275", "type": "vless", "server": "166.62.109.238", "port": 2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.jpmj.dev", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.jpmj.dev"}}}
+- {"name": "英国_276", "type": "vless", "server": "194.164.205.110", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_277", "type": "vless", "server": "135.84.73.138", "port": 2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "德国_278", "type": "vless", "server": "209.250.236.123", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "德国_279", "type": "vless", "server": "139.59.152.149", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_280", "type": "vless", "server": "50.62.174.138", "port": 2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_281", "type": "vless", "server": "139.144.77.183", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "比利时_282", "type": "vless", "server": "57.129.47.67", "port": 8443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "美国_283", "type": "vless", "server": "72.167.242.238", "port": 2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.jpmj.dev", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.jpmj.dev"}}}
+- {"name": "希腊_284", "type": "vless", "server": "185.234.57.207", "port": 443, "uuid": "dd92c4f8-be88-4c61-84eb-d261f798071e",
+  "tls": false, "servername": "teamdocs.su", "network": "tcp", "skip-cert-verify": 
+    false}
+- {"name": "法国_285", "type": "vless", "server": "51.91.248.61", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
+- {"name": "阿塞拜疆_286", "type": "vless", "server": "5.10.245.238", "port": 2096, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.jpmj.dev", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.jpmj.dev"}}}
+- {"name": "美国_287", "type": "vless", "server": "104.20.1.252", "port": 80, "uuid": "3775d133-dc3a-4a02-8095-5c70c328ae9f",
   "tls": false, "network": "ws", "ws-opts": {"path": "/?ed", "headers": {"host": "HUge-ActOR48bf36fHJV.ecOTouriSS.co.uK."}}}
-- {"name": "美国_215", "type": "vless", "server": "172.64.152.23", "port": 2053, "uuid": "8a2240da-25ca-4c95-9c55-26ef2ab70bab",
-  "tls": true, "servername": "hz.badomzamini.uk", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/latest?ed", "headers": {"host": "172.64.152.23"}}}
-- {"name": "美国_216", "type": "vless", "server": "cf.cloudflare.182682.xyz", "port": 
-    443, "uuid": "697f10a9-a849-3fec-7173-a4213b9a6378", "tls": true, "servername": "4efd71de.lfree.ccwu.cc",
-  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/2026", "headers": {
-      "host": "4efd71de.lfree.ccwu.cc"}}}
-- {"name": "Nofound_217", "type": "vless", "server": "ip.hamrahto.com", "port": 
-    2082, "uuid": "7255b3ba-7484-493f-adaa-0bd7ff6eb3ed", "tls": false, "network": "ws",
-  "ws-opts": {"path": "/api/stream", "headers": {"host": "hm3.mutee.com.tr"}}}
-- {"name": "Nofound_218", "type": "vless", "server": "188.114.98.0", "port": 
-    2053, "uuid": "42c63fdd-8f5f-42c5-8327-4fc7f80de4c2", "tls": true, "servername": "hz.badomzamini.uk",
-  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/latest?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2048",
-    "headers": {"host": "hz.badomzamini.uk"}}}
-- {"name": "挪威_219", "type": "ss", "server": "84.247.166.18", "port": 21049, "cipher": "chacha20-ietf-poly1305",
-  "password": "a48b9ca92abebb9f", "udp": true}
-- {"name": "美国_220", "type": "vless", "server": "nodejs.org", "port": 80, "uuid": "4c97ec3e-3527-48c5-80ff-b715463896ba",
-  "tls": false, "network": "ws", "ws-opts": {"path": "/?ed", "headers": {"host": "kindhearted-parkb5rjo2juer.sportland.company."}}}
-- {"name": "美国_221", "type": "vless", "server": "172.64.152.23", "port": 2053, "uuid": "42c63fdd-8f5f-42c5-8327-4fc7f80de4c2",
-  "tls": true, "servername": "hz.badomzamini.uk", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/latest?ed=2560", "headers": {"host": "hz.badomzamini.uk"}}}
-- {"name": "Nofound_222", "type": "vless", "server": "188.114.98.0", "port": 
-    2053, "uuid": "42c63fdd-8f5f-42c5-8327-4fc7f80de4c2", "tls": true, "servername": "hz.badomzamini.uk",
-  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/latest?ed=2560",
-    "headers": {"host": "hz.badomzamini.uk"}}}
-- {"name": "美国_223", "type": "vless", "server": "13.192.181.130", "port": 443, "uuid": "697f10a9-a849-3fec-7173-a4213b9a6378",
-  "tls": true, "servername": "4efd71de.lfree.ccwu.cc", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/2026", "headers": {"host": "4efd71de.lfree.ccwu.cc"}}}
-- {"name": "中国_224", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41275, "password": "2121ccef-9009-420d-837e-b3ac905e4050", "sni": "douyin.com",
-  "udp": true, "skip-cert-verify": true}
-- {"name": "美国_225", "type": "vless", "server": "172.67.194.187", "port": 443, "uuid": "21f9985c-d363-4eee-957f-720e9e9f9b8d",
-  "tls": true, "servername": "teams.live.com.afrcloud1.c01.kr", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/", "headers": {"host": "teams.live.com.afrcloud1.c01.kr"}}}
-- {"name": "美国_226", "type": "vless", "server": "104.17.148.143", "port": 443, "uuid": "2a40064b-0bec-4200-a717-9cd98872d315",
-  "tls": true, "servername": "93cb376a.cfncs.pages.dev", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/?ed=2048", "headers": {"host": "93cb376a.cfncs.pages.dev"}}}
-- {"name": "韩国_227", "type": "vless", "server": "221.161.207.216", "port": 12504,
-  "uuid": "697f10a9-a849-3fec-7173-a4213b9a6378", "tls": true, "servername": "4efd71de.lfree.ccwu.cc",
-  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/2026", "headers": {
-      "host": "4efd71de.lfree.ccwu.cc"}}}
-- {"name": "比利时_228", "type": "vless", "server": "57.129.137.201", "port": 8443, "uuid": "697f10a9-a849-3fec-7173-a4213b9a6378",
-  "tls": true, "servername": "4efd71de.lfree.ccwu.cc", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/2026", "headers": {"host": "4efd71de.lfree.ccwu.cc"}}}
-- {"name": "中国台湾_229", "type": "trojan", "server": "green2.cdntencentmusic.com", "port": 
-    31103, "password": "ee38426d-e692-4cb4-9b0b-63c42fac77b4", "sni": "green2.cdntencentmusic.com",
-  "udp": true, "skip-cert-verify": true}
-- {"name": "中国_230", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41275, "password": "52a3799a-3cf7-4b7d-9ce0-15789ac3493b", "sni": "douyin.com",
-  "udp": true, "skip-cert-verify": true}
-- {"name": "美国_231", "type": "vless", "server": "172.64.152.23", "port": 80, "uuid": "be38fcfb-6bef-4bad-b0ec-3bfd0a8d6265",
-  "tls": false, "network": "ws", "ws-opts": {"path": "/vless/?JoinBede--ELiV2RAY--ELiV2RAY--ELiV2RAY--ELiV2RAY--ELiV2RAY--ELiV2RAY--ELiV2RAY--ELiV2RAY--ELiV2RAY",
-    "headers": {"host": "3h-kAzakhStan1.09vPn.cOm."}}}
-- {"name": "美国_232", "type": "vless", "server": "172.64.152.23", "port": 2053, "uuid": "42c63fdd-8f5f-42c5-8327-4fc7f80de4c2",
-  "tls": true, "servername": "vw.badomzamini.uk", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/latest?ed=2560", "headers": {"host": "vw.badomzamini.uk"}}}
-- {"name": "Nofound_233", "type": "vless", "server": "188.114.98.0", "port": 
-    2053, "uuid": "42c63fdd-8f5f-42c5-8327-4fc7f80de4c2", "tls": true, "servername": "hz.badomzamini.uk",
-  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/latest?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2048",
-    "headers": {"host": "hz.badomzamini.uk"}}}
-- {"name": "中国台湾_234", "type": "trojan", "server": "green2.cdntencentmusic.com", "port": 
-    31103, "password": "e4e06eb8-2ba9-45d4-8e25-d6c7fcfd4992", "sni": "green2.cdntencentmusic.com",
-  "udp": true, "skip-cert-verify": true}
-- {"name": "Nofound_235", "type": "vless", "server": "188.114.98.0", "port": 
-    2053, "uuid": "42c63fdd-8f5f-42c5-8327-4fc7f80de4c2", "tls": true, "servername": "hz.badomzamini.uk",
-  "network": "ws", "skip-cert-verify": false, "ws-opts": {"path": "/latest?ed=2560",
-    "headers": {"host": "hz.badomzamini.uk"}}}
-- {"name": "美国_236", "type": "vless", "server": "cdn.zoom.us", "port": 443, "uuid": "44927ab5-6655-415f-9a12-ed1666f02880",
-  "tls": true, "servername": "afrcloud1.c01.kr", "network": "ws", "skip-cert-verify": 
-    false, "ws-opts": {"path": "/", "headers": {"host": "cdn.zoom.us"}}}
-- {"name": "美国_237", "type": "vmess", "server": "44ce-8817-7d9a13aa9eb0.457.pp.ua",
-  "port": 443, "uuid": "a1d2e3cd-297e-4753-8e7a-6d9fb0f4aac1", "tls": true, "servername": "44ce-8817-7d9a13aa9eb0.457.pp.ua",
-  "network": "xhttp", "skip-cert-verify": false, "alterId": 0, "cipher": "auto"}
-- {"name": "美国_238", "type": "vless", "server": "47.80.11.87", "port": 443, "uuid": "3e7f67de-648e-4871-b51a-a225214d41ee",
-  "tls": false, "servername": "api.company-target.com", "network": "tcp", "skip-cert-verify": 
-    false}
-- {"name": "美国_239", "type": "vless", "server": "nodejs.org", "port": 80, "uuid": "7d4a519b-d270-434e-a42d-d39624577a92",
-  "tls": false, "network": "ws", "ws-opts": {"path": "/?ed", "headers": {"host": "BrIgHt-orGaNizaTioNAuhudDhESZ.spoRTlAnd.CoMpANY."}}}
-- {"name": "德国_240", "type": "vless", "server": "37.120.172.61", "port": 22955, "uuid": "63f92f3c-447c-4283-80b9-0af8e164cdad",
-  "tls": false, "servername": "one-piece.com", "network": "grpc", "skip-cert-verify": 
-    false}
-- {"name": "德国_241", "type": "vless", "server": "37.120.164.120", "port": 22955, "uuid": "63f92f3c-447c-4283-80b9-0af8e164cdad",
-  "tls": false, "servername": "one-piece.com", "network": "grpc", "skip-cert-verify": 
-    false}
-- {"name": "中国_242", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41275, "password": "b989bd76-e718-4ae2-9569-b29472a2ef44", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_243", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41275, "password": "f1f8c5c7-e043-4b5f-9526-bf9502c69ecd", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_244", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41275, "password": "df3eab1d-664b-4109-a056-e00affac6b80", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_245", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41273, "password": "c7d9c618-b75f-4cea-b09c-50a95f086000", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_246", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41275, "password": "3749d848-3263-432d-a2fb-4b4c5a82c4b4", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_247", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41273, "password": "b0f57697-e62f-45d5-bdfd-e12b8c3d3fee", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_248", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41275, "password": "cc3af11f-3314-4e32-87e9-6be0824bbd10", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_249", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41275, "password": "548ed799-cd43-49c1-b6b4-113c44b7b029", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_250", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41275, "password": "b8662fb0-f098-4ecc-a663-b25f97737e10", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "瑞典_251", "type": "vless", "server": "157.180.79.18", "port": 2053, "uuid": "24497ec6-9244-4781-869d-3b48dbb13361",
-  "tls": false, "servername": "www.cloudflare.com", "network": "tcp", "skip-cert-verify": 
-    false}
-- {"name": "美国_252", "type": "vless", "server": "nodejs.org", "port": 80, "uuid": "ba2bb9d8-9baa-45d6-9e0a-38c9cb6a6a9a",
-  "tls": false, "network": "ws", "ws-opts": {"path": "/?ed", "headers": {"host": "WeaK-preSSUrE3Ga6bzof92.sPorTlaNd.coMPANY."}}}
-- {"name": "中国_253", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41273, "password": "98af35ae-e91a-42d8-a650-83b65957dbad", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_254", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41273, "password": "2520a8b8-9b68-4dc1-9c1c-67e0cdfe284f", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_255", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41273, "password": "719636c7-c646-4966-ab63-fe842997f120", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_256", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41274, "password": "b4a995e7-d8f2-418d-832a-64d261b6bab6", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_257", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41273, "password": "a4c1038e-bd7a-4d87-9575-bf173cf0c301", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_258", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41273, "password": "0dc9fa56-784b-43c6-a37d-9190508705ba", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_259", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41273, "password": "53b0f3d4-c65a-46fb-b104-d6dd5036623d", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_260", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41274, "password": "9afdadb3-a4c5-46a2-967a-d42b65b9408a", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_261", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41273, "password": "c4433c01-8608-4c75-99b6-8d507697461c", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_262", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41273, "password": "2a768604-7432-41c5-8792-7f7da78efa4c", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_263", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41273, "password": "dc34d040-584f-4f3d-9213-ab4c6f0c6420", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_264", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41273, "password": "2f49cedb-5560-4e78-a02a-1436c530a0cd", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_265", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41273, "password": "8c681ceb-65cd-407e-8707-05c6fd3f15c6", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_266", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41273, "password": "b22d6ffa-a66b-4728-8393-59a9cfc73542", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_267", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41274, "password": "a9c7a888-1c2e-4d21-81c3-f86a2f10df45", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_268", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41273, "password": "16b8bf7e-8abc-4778-944a-7ab9823e76e3", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_269", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41275, "password": "8df4e607-d589-4187-8214-4de25c59c7d0", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_270", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41275, "password": "c07c11a3-6e98-49d0-a7e2-5489dae2b01f", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_271", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41273, "password": "f8dd1b16-3a3b-44f9-98bb-ac477c52cf08", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_272", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41273, "password": "dcbbb443-3840-44a5-a38e-d77f91ca90f3", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_273", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41275, "password": "c69f4623-b482-47b6-85e5-d366a0d3ec47", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_274", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41275, "password": "ad8c3eed-70b9-4a22-94ca-b16e888290da", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_275", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41275, "password": "5a15ac8f-c047-42c5-8074-d87271bd87b2", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_276", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41273, "password": "1ee30eef-4de2-415d-904b-5939fc8d251f", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_277", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41273, "password": "ad053718-0b0a-4dc6-840b-283d1617880c", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "伊朗_278", "type": "trojan", "server": "37.202.200.19", "port": 25010, "password": "09e71e3b-1f9f-44ab-9a10-02e0e10e2f05",
-  "udp": true, "skip-cert-verify": true}
-- {"name": "乌克兰_279", "type": "vless", "server": "cl6-ndl.privetnet.ru", "port": 
-    7443, "uuid": "fdeecee7-dbed-47f6-bea2-cb0073b5e435", "tls": false, "network": "ws",
-  "ws-opts": {"path": "/vless", "headers": {"host": "cl6-ndl.privetnet.ru"}}}
-- {"name": "中国_280", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41273, "password": "5cbe60ee-f7e1-4e37-9bce-03253a94c248", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_281", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41273, "password": "e88895f2-e5df-4800-9e2d-4448f3e1f926", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_282", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41273, "password": "aab0ea48-2ffb-4e00-b052-be5ca327d437", "udp": true, "skip-cert-verify": 
-    true}
-- {"name": "中国_283", "type": "trojan", "server": "xiaozhu1.kkieo555.cn", "port": 
-    41273, "password": "c7b6abf0-f74c-40b1-a09c-689196a87d60", "udp": true, "skip-cert-verify": 
-    true}
+- {"name": "美国_288", "type": "vless", "server": "139.144.77.176", "port": 443, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+  "tls": true, "servername": "sni.111000.indevs.in", "network": "ws", "skip-cert-verify": 
+    false, "ws-opts": {"path": "/?ed=2560&Telegram🇨🇳+@WangCai2", "headers": {"host": "sni.111000.indevs.in"}}}
